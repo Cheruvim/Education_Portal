@@ -1,0 +1,14 @@
+﻿@using Microsoft.EntityFrameworkCore
+@model System.Collections.Generic.List<EducationPortal.Db.Models.Course>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<h2>title</h2>
+
+@foreach (var course in Model)
+{
+    <h2>@course.Description</h2>
+}
