@@ -88,6 +88,14 @@ namespace DateBaseServices.Services
             return courses;
         }
 
+        public Course GetCourseByCourseId(int courseId)
+        {
+            var course = _db.DbCourses
+                .FirstOrDefault(c => c.CourseId == courseId);
+            return course;
+        }
+
+
         public void AddUserInCourse(int courseId, int userId, string token)
         {
             if (!SecurityService.ValidateCurrentToken(token, userId))

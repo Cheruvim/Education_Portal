@@ -22,15 +22,18 @@ namespace Education_portal.Controllers
             _db = new DataContext();
         }
 
+        [HttpGet]
         public IActionResult Index()
         {
             var courses = _db.Courses.GetAllCourses();
             return View(courses);
         }
 
-        public IActionResult Privacy()
+        [HttpGet]
+        public IActionResult Course(int courseId)
         {
-            return View();
+            var course = _db.Courses.GetCourseByCourseId(courseId);
+            return View(course);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
