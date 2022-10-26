@@ -63,6 +63,34 @@ namespace EducationPortal.Db.Security
             return true;
         }
 
+        public static int GetUserIdFromToken(string token)
+        {
+            var mySecurityKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(Secret));
+
+            var tokenHandler = new JwtSecurityTokenHandler();
+            try
+            {
+                var t = tokenHandler.ValidateToken(token, new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidIssuer = Issuer,
+                    ValidAudience = Audience,
+                    IssuerSigningKey = mySecurityKey
+                }, out _);
+                var userIdStr = t.Claims.First(x => x.Type == "UserId").Value;
+
+
+                return int.Parse(userIdStr);
+            }
+            catch
+            {
+                return -1;
+            }
+        }
+
+
 
     }
 }

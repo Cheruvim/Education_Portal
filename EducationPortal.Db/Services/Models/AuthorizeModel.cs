@@ -1,4 +1,4 @@
-﻿namespace DateBaseServices.Services.Models
+﻿namespace EducationPortal.Db.Services.Models
 {
     public class AuthorizeModel
     {

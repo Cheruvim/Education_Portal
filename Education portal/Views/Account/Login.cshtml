@@ -1,0 +1,23 @@
+﻿@model EducationPortal.Db.Models.User
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "_Layout";
+}
+
+<form method="POST">
+    <div class="form-group">
+        <label asp-for="Login" class="site-text-gray"></label>
+        <input asp-for="Login" class="form-control" placeholder="Логин" autofocus />
+        <span asp-validation-for="Login" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Password" class="site-text-gray"></label>
+        <input asp-for="Password" type="password" class="form-control" placeholder="Пароль" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn site-bg-red" style="width: 50%; float: left;">Войти</button>
+        <a asp-controller="Account" asp-action="Register" class="btn btn-link" style="width: 50%;">Регистрация</a>
+    </div>
+</form>

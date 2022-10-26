@@ -1,0 +1,26 @@
+﻿@model EducationPortal.Db.Services.Models.AuthorizeModel
+
+@{
+    bool isAuthorized = false;
+    if (Model != null){
+        isAuthorized = !string.IsNullOrEmpty(Model.Login) &&
+                       Model.UserId != 0 &&
+                       !string.IsNullOrEmpty(Model.Token);
+    }
+
+}
+
+@if (!isAuthorized){
+    <li>
+        <a asp-controller="Account" asp-action="Login" class="nav-link">Login</a>
+    </li>
+
+}
+else{
+    <li>
+        <a class="nav-link" href="#">@Model.Login</a>
+    </li>
+    <li>
+        <a asp-controller="Account" asp-action="Logout" class="nav-link">Logout</a>
+    </li>
+}

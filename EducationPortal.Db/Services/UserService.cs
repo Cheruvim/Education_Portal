@@ -2,9 +2,9 @@
 using DateBaseServices;
 using DateBaseServices.Exceptions;
 using DateBaseServices.Services;
-using DateBaseServices.Services.Models;
 using EducationPortal.Db.Models;
 using EducationPortal.Db.Security;
+using EducationPortal.Db.Services.Models;
 
 namespace EducationPortal.Db.Services
 {
@@ -40,7 +40,10 @@ namespace EducationPortal.Db.Services
 
         private void UpdateUser(User user, string token)
         {
-            if (!SecurityService.ValidateCurrentToken(token, user.UserId))
+            var userId = SecurityService.GetUserIdFromToken(token);
+            var isAdmin = _db.DbUsers.FirstOrDefault(u => u.UserId == userId);
+
+            if (!(userId == user.UserId || isAdmin is { IsAdmin: true }))
                 throw new DbServiceException($"Токен({token}) недействителен.");
 
             var currentUser = _db.DbUsers.FirstOrDefault(u => u.UserId == user.UserId && u.Login == user.Login);
