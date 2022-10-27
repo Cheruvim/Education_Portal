@@ -35,6 +35,21 @@ namespace Education_portal.Controllers
         /// </summary>
         /// <returns>Результат выполнения запроса.</returns>
         [HttpGet]
+        public IActionResult MyCourses()
+        {
+            var currentUser = UserCookieUtility.GetUserInfoFromCookies(HttpContext);
+            var courses = _db.Courses.GetCoursesByUserId(currentUser.UserId, currentUser.Token);
+
+            // Выполняет переадресацию на страницу авторизации (метод Login() контроллера управления аккаунтами).
+            return View(courses);
+        }
+
+
+        /// <summary>
+        /// Обрабатывает запрос на переход к главной странице контроллера управления аккаунтами.
+        /// </summary>
+        /// <returns>Результат выполнения запроса.</returns>
+        [HttpGet]
         public IActionResult Logout()
         {
             UserCookieUtility.SetSavedUser(HttpContext, 0, string.Empty, false, string.Empty);

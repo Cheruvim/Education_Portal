@@ -37,8 +37,9 @@ namespace EducationPortal.Tests
         {
             var course = new Course
             {
-                Name = "2",
-                Description = "Second course"
+                Name = "3",
+                Description = "Third course",
+                Enable = true
             };
 
             _db.Courses.AddCourse(course, 1, _token);
@@ -56,6 +57,20 @@ namespace EducationPortal.Tests
             };
 
             _db.Courses.EditCourse(course, 1, _token);
+        }
+
+        [Test]
+        public void AddUserInCourse()
+        {
+            var course = new Course
+            {
+                CourseId = 2,
+                Name = "2",
+                Description = "Second course",
+                Enable = true
+            };
+
+            _db.Courses.AddUserInCourse(1, 2, _token);
         }
 
     }

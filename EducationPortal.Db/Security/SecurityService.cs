@@ -89,8 +89,5 @@ namespace EducationPortal.Db.Security
                 return -1;
             }
         }
-
-
-
     }
 }

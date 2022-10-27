@@ -98,7 +98,7 @@ namespace DateBaseServices.Services
 
         public void AddUserInCourse(int courseId, int userId, string token)
         {
-            if (!SecurityService.ValidateCurrentToken(token, userId))
+            if (!_db.Users.UserIsAdminByToken(token))
                 throw new DbServiceException($"Токен({token}) недействителен.");
 
             if (courseId < 1)
@@ -107,7 +107,11 @@ namespace DateBaseServices.Services
             if (userId < 1)
                 throw new DbServiceException("Неверный идентификатор пользователя.");
 
+
             ////TODO: здесь будет вызов логики с покупкой курса.
+
+            _db.UserCourseLinkers.Add(new UserCourseLinker { CourseId = courseId, UserId = userId });
+            _db.SaveChanges();
         }
     }
 }

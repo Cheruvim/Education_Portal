@@ -82,5 +82,13 @@ namespace EducationPortal.Db.Services
             var token =  SecurityService.GenerateToken(user.UserId);
             return new AuthorizeModel {Token = token, UserId = user.UserId, Login = user.Login, IsAdmin = user.IsAdmin};
         }
+
+        public bool UserIsAdminByToken(string token)
+        {
+            var userId = SecurityService.GetUserIdFromToken(token);
+            var isAdmin = _db.DbUsers.FirstOrDefault(u => u.UserId == userId);
+
+            return isAdmin is { IsAdmin: true };
+        }
     }
 }
