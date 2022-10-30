@@ -18,7 +18,7 @@
 }
 else{
     <li>
-        <a class="nav-link" href="#">@Model.Login</a>
+        <a class="nav-link" href="#">My profile</a>
     </li>
     <li>
         <a asp-controller="Account" asp-action="Logout" class="nav-link">Logout</a>
@@ -26,5 +26,11 @@ else{
     <li>
         <a asp-controller="Account" asp-action="MyCourses" class="nav-link">My courses</a>
     </li>
+    @if (Model.IsAdmin)
+    {
+        <li>
+            <a asp-controller="Admin" asp-action="Index" class="nav-link">Admin</a>
+        </li>
+    }
 
 }

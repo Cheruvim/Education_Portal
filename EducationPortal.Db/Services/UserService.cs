@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 using DateBaseServices;
 using DateBaseServices.Exceptions;
 using DateBaseServices.Services;
@@ -61,16 +62,23 @@ namespace EducationPortal.Db.Services
             _db.SaveChanges();
         }
 
-        public User GetUserById(int userId)
+        public (User user, List<Course> courses) GetUserById(int userId, string token)
         {
+            if(!UserIsAdminByToken(token))
+                throw new DbServiceException("Нет прав на просмотр информации о пользователе.");
+
             if (userId < 1)
                 throw new DbServiceException("Указан некорректный идентификатор пользователя.");
 
-            var user = _db.DbUsers.FirstOrDefault(u => u.UserId == userId);
-            if (user == null)
+            var usertemp = _db.DbUsers.FirstOrDefault(u => u.UserId == userId);
+            if (usertemp == null)
                 throw new DbServiceException("Не удалось найти пользователя с данным идентификатором.");
 
-            return new User {UserId = user.UserId, Login = user.Login, Name = user.Name, IsAdmin = user.IsAdmin};
+            var user = new User
+                { UserId = usertemp.UserId, Login = usertemp.Login, Name = usertemp.Name, IsAdmin = usertemp.IsAdmin };
+            var courses =_db.Courses.GetCoursesByUserId(userId, token);
+
+            return (user, courses);
         }
 
         public AuthorizeModel Authorize(string login, string password)
@@ -90,5 +98,16 @@ namespace EducationPortal.Db.Services
 
             return isAdmin is { IsAdmin: true };
         }
+
+        public List<User> GetAllUsers(string token)
+        {
+            if(!UserIsAdminByToken(token))
+                throw new DbServiceException("Нет прав на просмотр информации о пользователе.");
+
+            var users = _db.DbUsers.ToList();
+
+            return users;
+        }
+
     }
 }

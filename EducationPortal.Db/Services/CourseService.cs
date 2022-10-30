@@ -66,7 +66,7 @@ namespace DateBaseServices.Services
 
         public List<Course> GetCoursesByUserId(int userId, string token)
         {
-            if (!SecurityService.ValidateCurrentToken(token, userId))
+            if (!(SecurityService.ValidateCurrentToken(token, userId) || _db.Users.UserIsAdminByToken(token)))
                 throw new DbServiceException($"Токен({token}) недействителен.");
 
             if (userId < 1)
@@ -75,7 +75,9 @@ namespace DateBaseServices.Services
             var courses = _db.UserCourseLinkers
                 .Include(l => l.Course)
                 .Where(l => l.UserId == userId)
-                .Select(l => l.Course).ToList();
+                .Select(l => l.Course)
+                .Distinct()
+                .ToList();
 
             return courses;
         }
@@ -87,6 +89,17 @@ namespace DateBaseServices.Services
                 .ToList();
             return courses;
         }
+
+        public List<Course> GetAllCoursesWithNotEnabled(string token)
+        {
+            if (!_db.Users.UserIsAdminByToken(token))
+                throw new DbServiceException($"Токен({token}) недействителен.");
+
+            var courses = _db.DbCourses
+                .ToList();
+            return courses;
+        }
+
 
         public Course GetCourseByCourseId(int courseId)
         {
@@ -113,5 +126,24 @@ namespace DateBaseServices.Services
             _db.UserCourseLinkers.Add(new UserCourseLinker { CourseId = courseId, UserId = userId });
             _db.SaveChanges();
         }
+
+        public void RemoveUserFromCourse(int courseId, int userId, string token)
+        {
+            if (!_db.Users.UserIsAdminByToken(token))
+                throw new DbServiceException($"Токен({token}) недействителен.");
+
+            if (courseId < 1)
+                throw new DbServiceException("Неверный идентификатор курса.");
+
+            if (userId < 1)
+                throw new DbServiceException("Неверный идентификатор пользователя.");
+
+
+            ////TODO: здесь будет вызов логики с покупкой курса.
+            var linkers = _db.UserCourseLinkers.Where(l => l.UserId == userId && l.CourseId == courseId).ToList();
+            _db.UserCourseLinkers.RemoveRange(linkers);
+            _db.SaveChanges();
+        }
+
     }
 }

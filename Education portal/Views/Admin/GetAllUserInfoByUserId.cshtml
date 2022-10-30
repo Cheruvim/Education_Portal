@@ -1,0 +1,14 @@
+﻿@using Microsoft.EntityFrameworkCore
+@model (EducationPortal.Db.Models.User user, System.Collections.Generic.List<EducationPortal.Db.Models.Course> courses)
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<h2>@Model.user.Name</h2>
+<p>@Model.user.UserId</p>
+@foreach (var course in Model.courses)
+{
+    <p>@course.CourseId - @course.Name</p>
+}

@@ -1,0 +1,135 @@
+﻿@model (System.Collections.Generic.List<EducationPortal.Db.Models.User> users, System.Collections.Generic.List<EducationPortal.Db.Models.Course> courses)
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<section class="py-5 text-center container">
+<div class="row py-lg-5">
+  <div class="col-lg-6 col-md-8 mx-auto">
+    <h1 class="fw-light">Album example</h1>
+    <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+    <p>
+      <a href="#" class="btn btn-primary my-2">Main call to action</a>
+      <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+    </p>
+  </div>
+</div>
+</section>
+
+<div>
+    <h2>Курсы</h2>
+    <button type="button" class="btn site-bg-blue" id="courseCreateButton">Создать</button>
+
+    @foreach (var course in Model.courses)
+    {
+        <div courseId="@course.CourseId">
+            <a class="list-group-item list-group-item-action list-group-item-light p-3"  asp-action="Index" asp-controller="Home" asp-route-courseId="@course.CourseId">@course.Name</a>
+            <div class="btn-group">
+                <button type="button" class="courseEditButton" courseId="@course.CourseId"><span class="feather-16" data-feather="plus-circle"></span> <span class="d-none d-xl-inline">Изменить</span></button>
+                <button type="button" class="courseDeleteButton" courseId="@course.CourseId"><span class="feather-16" data-feather="plus-circle"></span> <span class="d-none d-xl-inline">Удалить</span></button>
+            </div>
+        </div>
+    }
+</div>
+
+<div>
+    <h2>Добавить пользователя в курс</h2>
+    <form asp-controller="Admin" asp-action="AddUserInCourse" enctype="multipart/form-data" method="POST">
+        <div class="modal-body">
+            <div class="form-group">
+                <label for="userIdUserToCourse">Id пользователя</label>
+                <input type="text" class="form-control" id="userIdUserToCourse" name="userId" placeholder="Введите Id пользователя">
+            </div>
+            <div class="form-group">
+                <label for="courseIdUserToCourse">Id курса</label>
+                <input type="text" class="form-control" id="courseIdUserToCourse" name="courseId" placeholder="Введите Id курса">
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="submit" class="btn site-bg-blue">Сохранить</button>
+        </div>
+    </form>
+</div>
+
+<div>
+    <h2>Удалить пользователя из курса</h2>
+    <form asp-controller="Admin" asp-action="RemoveUserFromCourse" enctype="multipart/form-data" method="POST">
+        <div class="modal-body">
+            <div class="form-group">
+                <label for="userIdUserFromCourse">Id пользователя</label>
+                <input type="text" class="form-control" id="userIdUserFromCourse" name="userId" placeholder="Введите Id пользователя">
+            </div>
+            <div class="form-group">
+                <label for="courseIdUserToCourse">Id курса</label>
+                <input type="text" class="form-control" id="courseIdUserFromCourse" name="courseId" placeholder="Введите Id курса">
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="submit" class="btn site-bg-blue">Сохранить</button>
+        </div>
+    </form>
+</div>
+
+
+
+
+@section CoursesActionsDialog
+{
+<div class="modal fade" id="courseEditDialog" tabindex="-1" role="dialog" aria-labelledby="courseEditDialogTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="courseEditDialogTitle">Курс</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form asp-controller="Admin" asp-action="EditCourse" enctype="multipart/form-data" method="POST">
+                <div class="modal-body">
+                        <input type="hidden" class="form-control" id="courseId" name="courseId" value="">
+                        <div class="form-group">
+                            <label for="courseTitle">Название курса</label>
+                            <input type="text" class="form-control" id="courseTitle" name="courseTitle" placeholder="Введите название статьи">
+                        </div>
+                        <div class="form-group">
+                            <label for="courseDescription">Описание курса</label>
+                            <textarea class="form-control" id="courseDescription" name="courseDescription" rows="7" placeholder="Введите описание курса"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="enable">Курс работает</label>
+                            <input type="checkbox" id="enable" name="enable" value="true"/>
+                        </div>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Отмена</button>
+                    <button type="submit" class="btn site-bg-blue text-white">Сохранить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="courseDeleteDialog" tabindex="-1" role="dialog" aria-labelledby="courseDeleteDialogTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="courseDeleteDialogTitle">Удаление курса</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Вы действительно хотите удалить выбранный курс?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Отмена</button>
+                <a href="#" class="btn site-bg-red text-white">ОК</a>
+            </div>
+        </div>
+    </div>
+</div>
+}
