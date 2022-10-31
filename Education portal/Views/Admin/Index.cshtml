@@ -25,7 +25,7 @@
     @foreach (var course in Model.courses)
     {
         <div courseId="@course.CourseId">
-            <a class="list-group-item list-group-item-action list-group-item-light p-3"  asp-action="Index" asp-controller="Home" asp-route-courseId="@course.CourseId">@course.Name</a>
+            <a class="list-group-item list-group-item-action list-group-item-light p-3"  asp-action="Index" asp-controller="Course" asp-route-courseId="@course.CourseId">@course.Name</a>
             <div class="btn-group">
                 <button type="button" class="courseEditButton" courseId="@course.CourseId"><span class="feather-16" data-feather="plus-circle"></span> <span class="d-none d-xl-inline">Изменить</span></button>
                 <button type="button" class="courseDeleteButton" courseId="@course.CourseId"><span class="feather-16" data-feather="plus-circle"></span> <span class="d-none d-xl-inline">Удалить</span></button>

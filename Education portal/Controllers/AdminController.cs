@@ -8,10 +8,10 @@ namespace Education_portal.Controllers
 {
     public class AdminController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<AdminController> _logger;
         private readonly DataContext _db;
 
-        public AdminController(ILogger<HomeController> logger)
+        public AdminController(ILogger<AdminController> logger)
         {
             _logger = logger;
             _db = new DataContext();
@@ -22,7 +22,7 @@ namespace Education_portal.Controllers
         {
             var user = UserCookieUtility.GetUserInfoFromCookies(HttpContext);
             if (!_db.Users.UserIsAdminByToken(user.Token))
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Index", "Course");
 
             var courses = _db.Courses.GetAllCoursesWithNotEnabled(user.Token);
             var users = _db.Users.GetAllUsers(user.Token);
