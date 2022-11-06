@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<!-- saved from url=(0018)https://pixel.one/ -->
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Pixel - школа рисования и анимации | Онлайн школа компьютерной графики и цифрового рисунка</title>
+      <link rel="stylesheet" media="all" href="./css/style.css">
+   </head>
+   <body class="pixelw">
+      <div id="main_sidebar_wrapper">
+         <div id="main_sidebar">
+            <div id="sidebar">
+               <div class="sidebar-section">
+                  <a class="sidebar-item active" href="https://pixel.one/#">
+                     <div class="sidebar-item-info">
+                        <div class="sidebar-item-image">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="37" height="26" viewBox="0 0 37 26" fill="none" class="sidebar-image">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M27.8937 0H0V4.3381C0 6.73131 1.92662 8.66677 4.29672 8.66677H8.58419V13.0049C8.58419 15.398 10.5108 17.3333 12.8812 17.3333H17.1687V26H21.4657L21.467 25.9998L21.4688 26C23.8392 26 25.7563 24.0645 25.7563 21.6714C25.7563 21.6606 25.7532 21.6504 25.7532 21.6395V17.3333H27.8937C32.6347 17.3333 36.4781 13.4532 36.4781 8.66667C36.4781 3.88024 32.6347 0 27.8937 0Z" fill="#238BF2"></path>
+                              <path d="M17.1687 26.0002V17.3335H25.7532V21.6397C25.7532 21.6505 25.7563 21.6608 25.7563 21.6716C25.7563 24.0647 23.8393 26.0002 21.4689 26.0002L21.467 26L21.4657 26.0002H17.1687Z" fill="#9FD6FF"></path>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M8.5842 8.66674H4.29673C3.11458 8.66674 2.04264 8.18514 1.2652 7.40552C2.04273 8.18514 3.11458 8.66674 4.29673 8.66674H8.5842Z" fill="#89AACD"></path>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M8.58419 8.66677H4.29672C3.11457 8.66677 2.04273 8.18516 1.26519 7.40554C0.484017 6.62214 0 5.53764 0 4.3382V0H8.58419V8.66677Z" fill="#A2D4F8"></path>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M8.58423 8.66677H17.1687V0H8.58423V8.66677Z" fill="#56B0FB"></path>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M17.1686 8.66677H25.7531V0H17.1686V8.66677Z" fill="#268DF9"></path>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M17.1687 17.3333H25.7532V8.6665H17.1687V17.3333Z" fill="#5BB1F7"></path>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M17.1687 17.3333H12.8812C11.6958 17.3333 10.6214 16.8494 9.84342 16.0661C10.6214 16.8494 11.6958 17.3333 12.8812 17.3333H17.1687ZM8.77866 14.2961C8.65232 13.8884 8.58423 13.4548 8.58423 13.0049C8.58423 13.4548 8.65232 13.8884 8.77866 14.2961Z" fill="#A4BBD7"></path>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M17.1687 17.3333H12.8812C11.6958 17.3333 10.6214 16.8493 9.84342 16.066C9.35822 15.5776 8.98825 14.9725 8.77866 14.2961C8.65232 13.8884 8.58423 13.4548 8.58423 13.0049V8.66675H17.1687V17.3333Z" fill="#77C5FA"></path>
+                           </svg>
+                        </div>
+                        <div class="sidebar-item-text"><span>Pixel</span></div>
+                     </div>
+                  </a>
+               </div>
+               <div class="sidebar-section">
+                  <a class="sidebar-item" data-popup-path="/login" href="https://pixel.one/#">
+                     <div class="sidebar-item-info">
+                        <div class="sidebar-item-image">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="sidebar-image">
+                              <style type="text/css">
+                                 .st0{fill:none;stroke:#238BF2;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+                                 .st1{fill:none;stroke:#238BF2;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+                              </style>
+                              <g>
+                                 <path class="st0" d="M21.77,7.16c2.67,5.39,0.47,11.93-4.93,14.61S4.91,22.23,2.23,16.84S1.77,4.91,7.16,2.23   c3.37-1.67,7.19-1.44,10.23,0.29"></path>
+                                 <g>
+                                    <path class="st1" d="M5.66,16.96c1.02-1.84,2.97-3.08,5.22-3.08h2.24c3.29,0,5.96,2.67,5.96,5.96v0.2"></path>
+                                    <circle class="st1" cx="12" cy="9.92" r="3.96"></circle>
+                                 </g>
+                              </g>
+                           </svg>
+                        </div>
+                        <div class="sidebar-item-text"><span>Авторизация</span></div>
+                     </div>
+                  </a>
+               </div>
+               <div class="sidebar-section sidebar-section-with-scroll">
+                  <div class="wrapper-scrollable">
+                     <a class="sidebar-item active" href="https://pixel.one/#">
+                        <div class="sidebar-item-info">
+                           <div class="sidebar-item-image">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="21" viewBox="0 0 24 21" fill="none" class="sidebar-image">
+                                 <path d="M4.56012 7.31006C4.56012 10.3101 6.56012 12.3101 9.94012 12.4001" stroke="#238BF2" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M10.0001 19.2H11.6201C12.236 19.2026 12.8464 19.0839 13.4164 18.8507C13.9865 18.6174 14.505 18.2741 14.9423 17.8405C15.3797 17.4068 15.7274 16.8913 15.9655 16.3233C16.2036 15.7553 16.3275 15.1459 16.3301 14.53V12.6C20.0301 12.6 22.3301 10.22 22.6501 7.31C22.9601 4.06 20.8901 1 17.3201 1H14.2601" stroke="#238BF2" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M10.0001 1V15.47" stroke="#238BF2" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M10.0001 1H1.00014V2.39C0.980138 4.63 3.13014 6.44 5.69014 6.44H9.94014" stroke="#238BF2" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path>
+                              </svg>
+                           </div>
+                           <div class="sidebar-item-text"><span>Главная</span></div>
+                        </div>
+                     </a>
+                     <a class="sidebar-item " href="https://pixel.one/course/kursy-grafiki-onlayn">
+                        <div class="sidebar-item-info">
+                           <div class="sidebar-item-image">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="24" viewBox="0 0 21 24" fill="none" class="sidebar-image">
+                                 <path d="M7.72998 23.1008C9.32197 23.1021 10.8986 22.7895 12.3697 22.1809C13.8407 21.5723 15.1773 20.6796 16.303 19.5539C17.4288 18.4282 18.3215 17.0915 18.9301 15.6205C19.5387 14.1494 19.8513 12.5728 19.85 10.9808V6.5708" stroke="#238BF2" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M15.45 13.0708C15.9364 11.7937 16.1806 10.4372 16.17 9.07076V5.07076H10.4C10.7151 4.72004 10.9219 4.28553 10.9953 3.81979C11.0687 3.35404 11.0055 2.87701 10.8135 2.44638C10.6215 2.01576 10.3089 1.64998 9.9134 1.39329C9.51791 1.1366 9.05651 1 8.58502 1C8.11353 1 7.65214 1.1366 7.25664 1.39329C6.86115 1.64998 6.5485 2.01576 6.3565 2.44638C6.16449 2.87701 6.10137 3.35404 6.17476 3.81979C6.24815 4.28553 6.4549 4.72004 6.77002 5.07076" stroke="#238BF2" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M1 5.06079V10.4508C1.35072 10.1357 1.78523 9.92892 2.25097 9.85553C2.71672 9.78214 3.19375 9.84526 3.62438 10.0373C4.055 10.2293 4.42078 10.5419 4.67747 10.9374C4.93415 11.3329 5.07076 11.7943 5.07076 12.2658C5.07076 12.7373 4.93415 13.1987 4.67747 13.5942C4.42078 13.9897 4.055 14.3023 3.62438 14.4943C3.19375 14.6863 2.71672 14.7494 2.25097 14.6761C1.78523 14.6027 1.35072 14.3959 1 14.0808V20.2308H5.05C6.58228 20.2333 8.09847 19.9183 9.50291 19.3056C10.9074 18.6928 12.1696 17.7957 13.21 16.6708" stroke="#238BF2" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path>
+                              </svg>
+                           </div>
+                           <div class="sidebar-item-text"><span>Курсы</span></div>
+                        </div>
+                     </a>
+                     <a class="sidebar-item " href="https://pixel.one/student-works">
+                        <div class="sidebar-item-info">
+                           <div class="sidebar-item-image">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="sidebar-image">
+                                 <path d="M22.9 9.94995V21C22.9 21.5039 22.6998 21.9871 22.3435 22.3435C21.9872 22.6998 21.5039 22.9 21 22.9H6.73999" stroke="#238BF2" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M1 14.26V2.9C1 2.39609 1.20018 1.91282 1.5565 1.5565C1.91282 1.20018 2.39609 1 2.9 1H18.15C18.6539 1 19.1372 1.20018 19.4935 1.5565C19.8498 1.91282 20.05 2.39609 20.05 2.9V17.76C20.05 18.2648 19.8501 18.7491 19.4941 19.107C19.1381 19.465 18.6548 19.6674 18.15 19.67H2.9" stroke="#238BF2" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M8.15997 15.9601L14.51 7.59009L17.6 11.6901" stroke="#238BF2" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M1 14.2599L3.89 11.1599L9.13 17.0499" stroke="#238BF2" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M7.51999 9.02997C8.7792 9.02997 9.79999 8.00918 9.79999 6.74997C9.79999 5.49076 8.7792 4.46997 7.51999 4.46997C6.26078 4.46997 5.23999 5.49076 5.23999 6.74997C5.23999 8.00918 6.26078 9.02997 7.51999 9.02997Z" stroke="#238BF2" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path>
+                              </svg>
+                           </div>
+                           <div class="sidebar-item-text"><span>Работы учеников</span></div>
+                        </div>
+                     </a>
+                     <a class="sidebar-item " href="https://pixel.one/educational-articles">
+                        <div class="sidebar-item-info">
+                           <div class="sidebar-item-image">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none" class="sidebar-image">
+                                 <path d="M5.73999 10.063V16.463C5.73999 17.463 8.19999 19.333 12.21 19.333C15.94 19.333 18.68 17.493 18.68 16.463V13.053" stroke="#238BF2" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M13.26 12.4329C12.9369 12.6053 12.5762 12.6956 12.21 12.6956C11.8437 12.6956 11.4831 12.6053 11.16 12.4329L1.82997 7.43289C1.64432 7.33671 1.48961 7.19005 1.38366 7.00979C1.27771 6.82954 1.22482 6.62302 1.23109 6.41403C1.23736 6.20503 1.30253 6.00206 1.4191 5.82848C1.53567 5.6549 1.69889 5.51778 1.88997 5.43289L3.69997 4.65289L11.28 1.20289C11.57 1.06922 11.8856 1 12.205 1C12.5243 1 12.8399 1.06922 13.13 1.20289L22.53 5.47289C22.7211 5.55778 22.8843 5.6949 23.0009 5.86848C23.1174 6.04206 23.1826 6.24503 23.1889 6.45403C23.1951 6.66302 23.1422 6.86954 23.0363 7.04979C22.9303 7.23005 22.7756 7.37671 22.59 7.47289L16.2 10.8729" stroke="#238BF2" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M2.26001 11.2329V17.6529" stroke="#238BF2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M3.51 23.1528H1L1.34 19.8828H3.12L3.51 23.1528Z" stroke="#238BF2" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                              </svg>
+                           </div>
+                           <div class="sidebar-item-text"><span>Обучающие статьи</span></div>
+                        </div>
+                     </a>
+                     <a class="sidebar-item " href="https://pixel.one/contests">
+                        <div class="sidebar-item-info">
+                           <div class="sidebar-item-image">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="sidebar-image">
+                                 <path d="M13.9003 16.1H10.2003C7.90029 16.1 6.10029 14 6.10029 11.3L5.30029 1.30005H18.8003L18.0003 11.3C18.0003 13.9 16.1003 16.1 13.9003 16.1Z" stroke="#238BF2" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M12 16.3V22.4" stroke="#238BF2" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M6.10019 11.5999H5.3002C3.8002 11.5999 2.5002 10.4999 2.3002 8.9999L1.7002 4.3999H5.5002L6.10019 11.5999Z" stroke="#238BF2" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M17.9004 11.6H18.7004C20.2004 11.6 21.5004 10.5 21.7004 9.00005L22.3004 4.30005H18.5004L17.9004 11.6Z" stroke="#238BF2" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M4.5 1.19995H19.5" stroke="#238BF2" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M12.3 4.99985L13 6.69985C13 6.79985 13.1 6.79985 13.2 6.89985L15 7.09985C15.2 7.09985 15.3 7.39985 15.2 7.59985L13.9 8.89985C13.8 8.99985 13.8 9.09985 13.8 9.19985L14.1 10.9999C14.1 11.1999 13.9 11.3999 13.7 11.2999L12.1 10.3999C12 10.3999 11.9 10.3999 11.8 10.3999L10.2 11.2999C10 11.3999 9.80003 11.1999 9.80003 10.9999L10.1 9.19985C10.1 9.09985 10.1 8.99985 10 8.89985L8.90003 7.59985C8.70003 7.39985 8.80003 7.09985 9.00003 7.09985L10.8 6.79985C10.9 6.79985 11 6.69985 11 6.59985L11.8 4.99985C11.9 4.79985 12.2 4.79985 12.3 4.99985Z" fill="white" stroke="#238BF2" stroke-width="1.3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M17.2003 22.7999C17.1003 21.0999 14.9003 19.7 12.0003 19.7C9.20029 19.7 6.90029 21.0999 6.80029 22.7999H17.2003Z" fill="white" stroke="#238BF2" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                              </svg>
+                           </div>
+                           <div class="sidebar-item-text"><span>Конкурсы</span></div>
+                        </div>
+                     </a>
+                     <a class="sidebar-item " href="https://pixel.one/homework-improvement">
+                        <div class="sidebar-item-info">
+                           <div class="sidebar-item-image">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="23" viewBox="0 0 21 23" fill="none" class="sidebar-image">
+                                 <path d="M16.4196 14.0154V20.0039C16.4208 20.2664 16.3701 20.5265 16.2702 20.7693C16.1704 21.012 16.0234 21.2326 15.8378 21.4182C15.6521 21.6038 15.4316 21.7508 15.1888 21.8507C14.9461 21.9506 14.6859 22.0013 14.4234 22H2.99615C2.46674 22 1.95901 21.7897 1.58466 21.4154C1.21031 21.041 1 20.5333 1 20.0039V5.39435C1 4.86493 1.21031 4.35721 1.58466 3.98285C1.95901 3.6085 2.46674 3.39819 2.99615 3.39819H9.62107" stroke="#238BF2" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M18.3888 1.34777L19.2452 2.05226C19.4586 2.22942 19.635 2.44688 19.7644 2.69221C19.8937 2.93754 19.9735 3.20595 19.9991 3.4821C20.0247 3.75825 19.9956 4.03675 19.9136 4.30168C19.8316 4.56661 19.6982 4.8128 19.521 5.02617L11.6797 14.5588L7.56126 11.1711L15.4026 1.63846C15.5789 1.42221 15.7962 1.24302 16.0421 1.11123C16.2879 0.979447 16.5575 0.897679 16.8351 0.870651C17.1128 0.843623 17.393 0.87187 17.6597 0.953762C17.9264 1.03565 18.1742 1.16957 18.3888 1.34777V1.34777Z" stroke="#238BF2" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M6.73792 16.3684L7.58652 11.1514L11.7042 14.5362L6.73792 16.3684Z" stroke="#238BF2" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M7.25873 13.6489L9.31274 15.3365" stroke="#238BF2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M13.864 3.50415L17.9141 6.71535" stroke="#238BF2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M1 7.69897H5.89877" stroke="#238BF2" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path>
+                              </svg>
+                           </div>
+                           <div class="sidebar-item-text"><span>Доработки заданий</span></div>
+                        </div>
+                     </a>
+                     <a class="sidebar-item " href="https://pixel.one/student-success-stories">
+                        <div class="sidebar-item-info">
+                           <div class="sidebar-item-image">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="sidebar-image">
+                                 <path d="M21.85 11.7354C22.5053 12.8364 22.8508 14.0941 22.85 15.3754C22.84 16.6695 22.4856 17.9376 21.8234 19.0495C21.1611 20.1613 20.2147 21.0768 19.0816 21.702C17.9484 22.3271 16.6693 22.6393 15.3755 22.6065C14.0818 22.5737 12.8201 22.1971 11.72 21.5154" stroke="#238BF2" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M4.06001 3.22527C5.38156 2.04899 7.01456 1.27918 8.76291 1.00828C10.5113 0.737377 12.3007 0.976905 13.9162 1.6981C15.5318 2.41929 16.9048 3.59149 17.8705 5.07394C18.8361 6.55639 19.3533 8.28606 19.36 10.0553C19.36 12.49 18.3928 14.8249 16.6712 16.5465C14.9497 18.2681 12.6147 19.2353 10.18 19.2353C7.74532 19.2353 5.41035 18.2681 3.68877 16.5465C1.96718 14.8249 1.00001 12.49 1.00001 10.0553C0.998668 8.85694 1.23666 7.6704 1.70001 6.56527" stroke="#238BF2" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M13.25 18.6152C13.9295 19.0832 14.7349 19.3343 15.56 19.3352C16.5087 19.3352 17.4286 19.0095 18.1659 18.4124C18.9031 17.8153 19.4129 16.9832 19.61 16.0552H17.04" stroke="#238BF2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M5.07001 10.9053C5.32422 12.0715 5.96969 13.1156 6.89922 13.8644C7.82875 14.6131 8.98643 15.0214 10.18 15.0214C11.3736 15.0214 12.5313 14.6131 13.4608 13.8644C14.3903 13.1156 15.0358 12.0715 15.29 10.9053H5.07001Z" stroke="#238BF2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M13.79 9.04516C14.4141 9.04516 14.92 8.53924 14.92 7.91516C14.92 7.29107 14.4141 6.78516 13.79 6.78516C13.166 6.78516 12.66 7.29107 12.66 7.91516C12.66 8.53924 13.166 9.04516 13.79 9.04516Z" fill="#238BF2"></path>
+                                 <path d="M6.53002 9.04516C7.15411 9.04516 7.66002 8.53924 7.66002 7.91516C7.66002 7.29107 7.15411 6.78516 6.53002 6.78516C5.90594 6.78516 5.40002 7.29107 5.40002 7.91516C5.40002 8.53924 5.90594 9.04516 6.53002 9.04516Z" fill="#238BF2"></path>
+                              </svg>
+                           </div>
+                           <div class="sidebar-item-text"><span>Истории учеников</span></div>
+                        </div>
+                     </a>
+                     <a class="sidebar-item " href="https://pixel.one/webinars">
+                        <div class="sidebar-item-info">
+                           <div class="sidebar-item-image">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none" class="sidebar-image">
+                                 <path d="M9.52997 15.8387V9.17871L15.17 12.5087L9.52997 15.8387Z" stroke="#238BF2" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M11.9 1.60889C14.5119 1.60888 17.0371 2.54681 19.0157 4.25192C20.9943 5.95704 22.2948 8.31597 22.6805 10.8993C23.0662 13.4826 22.5114 16.1185 21.1172 18.3273C19.723 20.536 17.5819 22.1706 15.0839 22.9335C12.5858 23.6965 9.89688 23.537 7.50651 22.4842C5.11613 21.4314 3.18328 19.5552 2.05982 17.1972C0.936353 14.8392 0.696977 12.1562 1.38527 9.63658C2.07355 7.11694 3.64374 4.92823 5.80998 3.46889" stroke="#238BF2" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M11.9 20.4089C10.0072 20.4081 8.17762 19.7278 6.74418 18.4917C5.31075 17.2556 4.36875 15.546 4.08963 13.6739C3.8105 11.8018 4.2128 9.89173 5.22331 8.29127C6.23382 6.6908 7.78537 5.50634 9.5956 4.95345C11.4058 4.40055 13.3544 4.51597 15.0867 5.27869C16.819 6.04142 18.2199 7.40076 19.0344 9.10932C19.8489 10.8179 20.0229 12.7621 19.5247 14.5881C19.0265 16.4142 17.8893 18.0007 16.32 19.0589" stroke="#238BF2" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path>
+                              </svg>
+                           </div>
+                           <div class="sidebar-item-text"><span>Вебинары</span></div>
+                        </div>
+                     </a>
+                     <a class="sidebar-item " href="https://pixel.one/about">
+                        <div class="sidebar-item-info">
+                           <div class="sidebar-item-image">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="sidebar-image">
+                                 <path d="M19.14 19.1001C18.2439 20.1821 17.1201 21.053 15.8488 21.6508C14.5774 22.2486 13.1899 22.5586 11.785 22.5586C10.3801 22.5586 8.99255 22.2486 7.72121 21.6508C6.44988 21.053 5.3261 20.1821 4.42999 19.1001" stroke="#238BF2" stroke-width="1.71" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M2.5 11.4798C2.93429 9.32289 4.10377 7.38362 5.80878 5.99303C7.51379 4.60245 9.6486 3.84679 11.8488 3.85505C14.0489 3.86331 16.178 4.63499 17.8725 6.03834C19.567 7.44169 20.7219 9.38969 21.14 11.5498" stroke="#238BF2" stroke-width="1.71" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M8.37997 13.2499C9.05376 13.2499 9.59997 12.6679 9.59997 11.9499C9.59997 11.2319 9.05376 10.6499 8.37997 10.6499C7.70619 10.6499 7.15997 11.2319 7.15997 11.9499C7.15997 12.6679 7.70619 13.2499 8.37997 13.2499Z" fill="#238BF2"></path>
+                                 <path d="M15.21 13.2499C15.8838 13.2499 16.43 12.6679 16.43 11.9499C16.43 11.2319 15.8838 10.6499 15.21 10.6499C14.5362 10.6499 13.99 11.2319 13.99 11.9499C13.99 12.6679 14.5362 13.2499 15.21 13.2499Z" fill="#238BF2"></path>
+                                 <path d="M13.28 14.8899L12.28 16.2399C12.2333 16.3325 12.1618 16.4103 12.0736 16.4646C11.9853 16.519 11.8837 16.5478 11.78 16.5478C11.6763 16.5478 11.5747 16.519 11.4864 16.4646C11.3981 16.4103 11.3267 16.3325 11.28 16.2399L10.28 14.8899C10.226 14.8029 10.1956 14.7032 10.1919 14.6008C10.1881 14.4984 10.2111 14.3968 10.2585 14.306C10.3059 14.2152 10.3762 14.1383 10.4624 14.0828C10.5485 14.0274 10.6477 13.9954 10.75 13.9899H12.75C12.8574 13.9848 12.9642 14.009 13.0588 14.0601C13.1534 14.1112 13.2323 14.1872 13.2868 14.2799C13.3414 14.3725 13.3696 14.4783 13.3684 14.5859C13.3672 14.6934 13.3366 14.7985 13.28 14.8899Z" fill="#238BF2"></path>
+                                 <path d="M11.8 16.27C11.7668 16.6838 11.5762 17.069 11.2673 17.3462C10.9584 17.6235 10.5549 17.7716 10.14 17.76C9.71666 17.7849 9.30046 17.6428 8.98074 17.3642C8.66103 17.0856 8.46329 16.6928 8.42999 16.27" stroke="#238BF2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M15.21 16.27C15.1792 16.6938 14.9822 17.0881 14.6619 17.3672C14.3416 17.6463 13.9239 17.7875 13.5 17.76C13.0777 17.7848 12.6626 17.6424 12.3445 17.3635C12.0264 17.0847 11.8308 16.6919 11.8 16.27" stroke="#238BF2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M3.2 13.71L1 13.5" stroke="#238BF2" stroke-width="1.71" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M4.00997 16.5L1.96997 17.64" stroke="#238BF2" stroke-width="1.71" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M20.39 13.71L22.6 13.5" stroke="#238BF2" stroke-width="1.71" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M19.58 16.5L21.62 17.64" stroke="#238BF2" stroke-width="1.71" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M2.51 10.38C2 6.83001 1.77 4.10001 1.66 2.00001C1.64944 1.83488 1.68265 1.66989 1.75628 1.52172C1.8299 1.37354 1.94134 1.24742 2.07933 1.1561C2.21731 1.06479 2.37696 1.01152 2.54213 1.00167C2.7073 0.991818 2.87214 1.02574 3.02 1.10001L8.14 4.60001" stroke="#238BF2" stroke-width="1.71" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M21.08 10.38C21.6 6.83001 21.82 4.11001 21.93 2.00001C21.9406 1.83488 21.9074 1.66989 21.8337 1.52172C21.7601 1.37354 21.6487 1.24742 21.5107 1.1561C21.3727 1.06479 21.213 1.01152 21.0479 1.00167C20.8827 0.991818 20.7179 1.02574 20.57 1.10001L15.5 4.60001" stroke="#238BF2" stroke-width="1.71" stroke-linecap="round" stroke-linejoin="round"></path>
+                              </svg>
+                           </div>
+                           <div class="sidebar-item-text"><span>О школе</span></div>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="main_wrapper">
+         <div class="wide-block page-page">
+            <div class="upper_banner_hight" id="upper_banner">
+               <div id="upper_banner_info">
+                  <h1 id="upper_banner_title">Pixel</h1>
+                  <div id="upper_banner_desription">Онлайн школа</div>
+               </div>
+               <img data-src="/assets/banners/main-d125a53e039134fb5d267026e1d3c95803c9f918c2c42c7d02f6f90423674a7c.jpg" class="lozad" src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/main-d125a53e039134fb5d267026e1d3c95803c9f918c2c42c7d02f6f90423674a7c.jpg" data-loaded="true">
+            </div>
+            <div id="index_wrapper">
+               <div class="index_list">
+                  <div class="pixel-container">
+                     <h2 class="block_title">Работы учеников</h2>
+                     <script type="application/json" id="js-react-on-rails-context">{"railsEnv":"production","inMailer":false,"i18nLocale":"ru","i18nDefaultLocale":"ru","rorVersion":"12.0.0","rorPro":false,"href":"https://pixel.one/","location":"/","scheme":"https","host":"pixel.one","port":null,"pathname":"/","search":null,"httpAcceptLanguage":"en-US,en;q=0.9","serverSide":false}</script>
+                     <div id="IndexBestWorksCatalogModule-react-component-b427b294-04fa-4491-9013-0e402d01b506">
+                        <div class="catalog">
+                           <div class="catalog__items ctg-content my-3">
+                              <div class="d-flex flex-wrap">
+                                 <div class="catalog-item cell cell_33">
+                                    <div class="student-work">
+                                       <div class="card_with_border_extended">
+                                          <div class="homework_extended homework_exists lozad" id="232840" data-background-image="https://storage.googleapis.com/pixel-one/homeworks/images/000/232/840/medium/ots-06.jpg?1606449267" data-loaded="true" style="background-image: url(&quot;https://storage.googleapis.com/pixel-one/homeworks/images/000/232/840/medium/ots-06.jpg?1606449267&quot;);"></div>
+                                          <hr>
+                                          <div class="homework_flex_info">
+                                             <div class="homework_social_info">
+                                                <div class="homework_user">
+                                                   <div class="homework_avatar"><img class="lozad" data-src="https://sun1-21.userapi.com/impf/c638331/v638331800/409f9/X7RzC38nzi0.jpg?size=50x0&amp;quality=88&amp;crop=0,189,1536,1536&amp;sign=d5e3f9b7fd93ea18fc7ceab309b25f0a&amp;c_uniq_tag=xA_ALFxHKyPHm6by7vvHc_t6STxj68IbCbFY-EpAnq0&amp;ava=1" alt="" src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/X7RzC38nzi0.jpg" data-loaded="true"></div>
+                                                   <div class="homework_user_name">Юлия
+                                                      Гомон
+                                                   </div>
+                                                </div>
+                                                <div class="homework_counters">
+                                                   <div class="homework_like_count"><i class="fa fa-heart-o"></i>&nbsp;<span>62</span></div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="catalog-item cell cell_33">
+                                    <div class="student-work">
+                                       <div class="card_with_border_extended">
+                                          <div class="homework_extended homework_exists lozad" id="289288" data-background-image="https://storage.googleapis.com/pixel-one/homeworks/images/000/289/288/medium/3_%D1%81%D0%B4%D0%B0%D1%87%D0%B0.jpg?1603575324" data-loaded="true" style="background-image: url(&quot;https://storage.googleapis.com/pixel-one/homeworks/images/000/289/288/medium/3_%D1%81%D0%B4%D0%B0%D1%87%D0%B0.jpg?1603575324&quot;);"></div>
+                                          <hr>
+                                          <div class="homework_flex_info">
+                                             <div class="homework_social_info">
+                                                <div class="homework_user">
+                                                   <div class="homework_avatar"><img class="lozad" data-src="https://sun9-82.userapi.com/s/v1/ig2/Ck2MyaE6maQqP6_eHYYN_UTffg8GpnzdvL72IDic3_al7w6Ct1fdId2LJd5edrHn70cHZjFzxVyCfmitCwwOvBFW.jpg?size=50x50&amp;quality=96&amp;crop=1,0,747,747&amp;ava=1" alt="" src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/Ck2MyaE6maQqP6_eHYYN_UTffg8GpnzdvL72IDic3_al7w6Ct1fdId2LJd5edrHn70cHZjFzxVyCfmitCwwOvBFW.jpg" data-loaded="true"></div>
+                                                   <div class="homework_user_name">Ethan
+                                                      Crazy
+                                                   </div>
+                                                </div>
+                                                <div class="homework_counters">
+                                                   <div class="homework_comment_count"><i class="fa fa-comment-o"></i><span>2</span></div>
+                                                   <div class="homework_like_count"><i class="fa fa-heart-o"></i>&nbsp;<span>85</span></div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="catalog-item cell cell_33">
+                                    <div class="student-work">
+                                       <div class="card_with_border_extended">
+                                          <div class="homework_extended homework_exists lozad" id="410050" data-background-image="https://storage.googleapis.com/pixel-one/homeworks/images/000/410/050/medium/%D0%B8%D0%B7%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F3_%D0%9C%D0%BE%D0%BD%D1%82%D0%B0%D0%B6%D0%BD%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C_1.jpg?1615417937" data-loaded="true" style="background-image: url(&quot;https://storage.googleapis.com/pixel-one/homeworks/images/000/410/050/medium/%D0%B8%D0%B7%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F3_%D0%9C%D0%BE%D0%BD%D1%82%D0%B0%D0%B6%D0%BD%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C_1.jpg?1615417937&quot;);"></div>
+                                          <hr>
+                                          <div class="homework_flex_info">
+                                             <div class="homework_social_info">
+                                                <div class="homework_user">
+                                                   <div class="homework_avatar"><img class="lozad" data-src="https://sun1-97.userapi.com/s/v1/if1/x3OU9DJvmaVolzpZrYlRrgEJmTXheYM_G35c0MLNaFZfcGJ3ssMrDiyKdFkYuOAbzC8Q_8aS.jpg?size=50x0&amp;quality=96&amp;crop=7,198,1707,1707&amp;ava=1" alt="" src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/x3OU9DJvmaVolzpZrYlRrgEJmTXheYM_G35c0MLNaFZfcGJ3ssMrDiyKdFkYuOAbzC8Q_8aS.jpg" data-loaded="true"></div>
+                                                   <div class="homework_user_name">Вероника
+                                                      Лещевич
+                                                   </div>
+                                                </div>
+                                                <div class="homework_counters">
+                                                   <div class="homework_like_count"><i class="fa fa-heart-o"></i>&nbsp;<span>76</span></div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="catalog-item cell cell_33">
+                                    <div class="student-work">
+                                       <div class="card_with_border_extended">
+                                          <div class="homework_extended homework_exists lozad" id="515796" data-background-image="https://storage.googleapis.com/pixel-one/homeworks/images/000/515/796/medium/izo-3.jpg?1640726444" data-loaded="true" style="background-image: url(&quot;https://storage.googleapis.com/pixel-one/homeworks/images/000/515/796/medium/izo-3.jpg?1640726444&quot;);"></div>
+                                          <hr>
+                                          <div class="homework_flex_info">
+                                             <div class="homework_social_info">
+                                                <div class="homework_user">
+                                                   <div class="homework_avatar"><img class="lozad" data-src="https://sun9-74.userapi.com/s/v1/if1/WBOjExx-g28JupxiLqcK02jkHrF7qBiWiccBJuMP1HbpAAmvki2wQONU7a6wM83O6P9vEMS9.jpg?size=50x50&amp;quality=96&amp;crop=178,382,859,859&amp;ava=1" alt="" src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/WBOjExx-g28JupxiLqcK02jkHrF7qBiWiccBJuMP1HbpAAmvki2wQONU7a6wM83O6P9vEMS9.jpg" data-loaded="true"></div>
+                                                   <div class="homework_user_name">Елена
+                                                      Альбова
+                                                   </div>
+                                                </div>
+                                                <div class="homework_counters">
+                                                   <div class="homework_like_count"><i class="fa fa-heart-o"></i>&nbsp;<span>58</span></div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="catalog-item cell cell_33">
+                                    <div class="student-work">
+                                       <div class="card_with_border_extended">
+                                          <div class="homework_extended homework_exists lozad" id="202840" data-background-image="https://storage.googleapis.com/pixel-one/homeworks/images/000/202/840/medium/light_4.jpg?1592021579" data-loaded="true" style="background-image: url(&quot;https://storage.googleapis.com/pixel-one/homeworks/images/000/202/840/medium/light_4.jpg?1592021579&quot;);"></div>
+                                          <hr>
+                                          <div class="homework_flex_info">
+                                             <div class="homework_social_info">
+                                                <div class="homework_user">
+                                                   <div class="homework_avatar"><img class="lozad" data-src="https://sun1-84.userapi.com/impg/cxwZJNik5-UpPY51Sx_EwDlLFnUCrC7hWKMH5Q/nd9afUg36-g.jpg?size=50x0&amp;quality=88&amp;crop=77,131,1414,1414&amp;sign=bdc3468e7fed0d0397614e979582db36&amp;c_uniq_tag=AeZ-a8Gpw22dwwEixnOMa38AK0GtshUjQSrISUAwibs&amp;ava=1" alt="" src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/nd9afUg36-g.jpg" data-loaded="true"></div>
+                                                   <div class="homework_user_name">Yuliya
+                                                      Ogorodnik
+                                                   </div>
+                                                </div>
+                                                <div class="homework_counters">
+                                                   <div class="homework_comment_count"><i class="fa fa-comment-o"></i><span>2</span></div>
+                                                   <div class="homework_like_count"><i class="fa fa-heart-o"></i>&nbsp;<span>87</span></div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="catalog-item cell cell_33">
+                                    <div class="student-work">
+                                       <div class="card_with_border_extended">
+                                          <div class="homework_extended homework_exists lozad" id="132856" data-background-image="https://storage.googleapis.com/pixel-one/homeworks/images/000/132/856/medium/iconsblue_%D0%9C%D0%BE%D0%BD%D1%82%D0%B0%D0%B6%D0%BD%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C_1.jpg?1606442363" data-loaded="true" style="background-image: url(&quot;https://storage.googleapis.com/pixel-one/homeworks/images/000/132/856/medium/iconsblue_%D0%9C%D0%BE%D0%BD%D1%82%D0%B0%D0%B6%D0%BD%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C_1.jpg?1606442363&quot;);"></div>
+                                          <hr>
+                                          <div class="homework_flex_info">
+                                             <div class="homework_social_info">
+                                                <div class="homework_user">
+                                                   <div class="homework_avatar"><img class="lozad" data-src="https://sun1-87.userapi.com/impf/c849028/v849028513/1cc3b0/P32hbpjyHGE.jpg?size=50x0&amp;quality=96&amp;crop=0,50,805,805&amp;sign=6a248ef6750b4415d5fdbe8210037df1&amp;c_uniq_tag=OZxSd9nrbFRnqiiQxg40c8DR40WM0ykX2IJ08g1XNTY&amp;ava=1" alt="" src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/P32hbpjyHGE.jpg" data-loaded="true"></div>
+                                                   <div class="homework_user_name">Настя
+                                                      Рупасова
+                                                   </div>
+                                                </div>
+                                                <div class="homework_counters">
+                                                   <div class="homework_like_count"><i class="fa fa-heart-o"></i>&nbsp;<span>48</span></div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="mx-auto mt-4"><button type="button" class="btn btn-outline-primary">Показать ещё</button></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <script type="application/json" class="js-react-on-rails-component" data-component-name="IndexBestWorksCatalogModule" data-dom-id="IndexBestWorksCatalogModule-react-component-b427b294-04fa-4491-9013-0e402d01b506">{"tag":"all"}</script>
+                  </div>
+               </div>
+               <div class="index_list index_course_background">
+                  <div class="pixel-container">
+                     <h2 class="block_title">Курсы</h2>
+                     <div class="index_flex">
+                        <div class="cell">
+                           <a class="p-card medium course_card" href="https://pixel.one/course/5/kurs-illyustratsii-v-adobe-illustrator-onlayn">
+                              <div class="p-card-img-top lozad course_wide_card_img" data-background-image="/system/courses/wide_covers/000/000/005/medium/ai.jpg?1604923482" data-loaded="true" style="background-image: url(&quot;/system/courses/wide_covers/000/000/005/medium/ai.jpg?1604923482&quot;);"></div>
+                              <div class="p-card-body">
+                                 <div class="p-card-title primary course_card_title_center">Курс иллюстрации в Adobe Illustrator</div>
+                                 <div class="course_card_info">
+                                    <div class="course_card_info_item"><img src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/1_lessons-61269095d1121776a1896ad7bc138282390309333c870365a7b86679fd5a24ac.png" alt="1 lessons"><span>8 уроков</span></div>
+                                    <div class="course_card_info_item"><img src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/2_exercises-a57f6180b25b29e8c8797b8ca1a3d23be58aa363ac86b3ddc7c2e2b678175943.png" alt="2 exercises"><span>13 заданий</span></div>
+                                    <div class="course_card_info_item"><img src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/3_subjects-0bb0ded7f176ec3190c415f8ad3e801d336eefe339f90334da1125978da29e6e.png" alt="3 subjects"><span>54 темы</span></div>
+                                    <div class="course_card_info_item"><img src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/4_course_period-f4eaf9233d67c93c039cc6c48d68ab11daf2c237e78a19c2a390832b80bae4b8.png" alt="4 course period"><span>3 месяца</span></div>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="cell">
+                           <a class="p-card medium course_card" href="https://pixel.one/course/16/kurs-po-risovaniyu-v-fotoshope-onlayn">
+                              <div class="p-card-img-top lozad course_card_img" data-background-image="/system/courses/covers/000/000/016/medium/dr.jpg?1604923693" data-loaded="true" style="background-image: url(&quot;/system/courses/covers/000/000/016/medium/dr.jpg?1604923693&quot;);"></div>
+                              <div class="p-card-body">
+                                 <div class="p-card-title primary course_card_title_center">Курс рисования в Photoshop</div>
+                                 <div class="course_card_info">
+                                    <div class="course_card_info_item"><img src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/1_lessons-61269095d1121776a1896ad7bc138282390309333c870365a7b86679fd5a24ac.png" alt="1 lessons"><span>21 час видео</span></div>
+                                    <div class="course_card_info_item"><img src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/2_exercises-a57f6180b25b29e8c8797b8ca1a3d23be58aa363ac86b3ddc7c2e2b678175943.png" alt="2 exercises"><span>28 заданий</span></div>
+                                    <div class="course_card_info_item"><img src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/3_subjects-0bb0ded7f176ec3190c415f8ad3e801d336eefe339f90334da1125978da29e6e.png" alt="3 subjects"><span>54 темы</span></div>
+                                    <div class="course_card_info_item"><img src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/4_course_period-f4eaf9233d67c93c039cc6c48d68ab11daf2c237e78a19c2a390832b80bae4b8.png" alt="4 course period"><span>3 месяца</span></div>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="cell">
+                           <a class="p-card medium course_card" href="https://pixel.one/course/23">
+                              <div class="p-card-img-top lozad course_card_img" data-background-image="/system/courses/covers/000/000/023/medium/pr.jpg?1630321715" data-loaded="true" style="background-image: url(&quot;/system/courses/covers/000/000/023/medium/pr.jpg?1630321715&quot;);"></div>
+                              <div class="p-card-body">
+                                 <div class="p-card-title primary course_card_title_center">Рисование в Procreate</div>
+                                 <div class="course_card_info">
+                                    <div class="course_card_info_item"><img src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/1_lessons-61269095d1121776a1896ad7bc138282390309333c870365a7b86679fd5a24ac.png" alt="1 lessons"><span>8 разделов</span></div>
+                                    <div class="course_card_info_item"><img src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/2_exercises-a57f6180b25b29e8c8797b8ca1a3d23be58aa363ac86b3ddc7c2e2b678175943.png" alt="2 exercises"><span>14 заданий</span></div>
+                                    <div class="course_card_info_item"><img src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/3_subjects-0bb0ded7f176ec3190c415f8ad3e801d336eefe339f90334da1125978da29e6e.png" alt="3 subjects"><span>34 темы</span></div>
+                                    <div class="course_card_info_item"><img src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/4_course_period-f4eaf9233d67c93c039cc6c48d68ab11daf2c237e78a19c2a390832b80bae4b8.png" alt="4 course period"><span>3 месяца</span></div>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="cell hidden">
+                           <a class="p-card medium course_card" href="https://pixel.one/course/18/personazh-v-adobe-illustrator-onlayn">
+                              <div class="p-card-img-top lozad course_wide_card_img" data-background-image="/system/courses/wide_covers/000/000/018/medium/ai_pers.jpg?1604923743"></div>
+                              <div class="p-card-body">
+                                 <div class="p-card-title primary course_card_title_center">Курс по созданию персонажа в Adobe Illustrator</div>
+                                 <div class="course_card_info">
+                                    <div class="course_card_info_item"><img src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/1_lessons-61269095d1121776a1896ad7bc138282390309333c870365a7b86679fd5a24ac.png" alt="1 lessons"><span>8 уроков</span></div>
+                                    <div class="course_card_info_item"><img src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/2_exercises-a57f6180b25b29e8c8797b8ca1a3d23be58aa363ac86b3ddc7c2e2b678175943.png" alt="2 exercises"><span>12 заданий</span></div>
+                                    <div class="course_card_info_item"><img src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/3_subjects-0bb0ded7f176ec3190c415f8ad3e801d336eefe339f90334da1125978da29e6e.png" alt="3 subjects"><span>41 тема</span></div>
+                                    <div class="course_card_info_item"><img src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/4_course_period-f4eaf9233d67c93c039cc6c48d68ab11daf2c237e78a19c2a390832b80bae4b8.png" alt="4 course period"><span>4 месяца</span></div>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="cell hidden">
+                           <a class="p-card medium course_card" href="https://pixel.one/course/22/risovanie-personazhey-onlayn">
+                              <div class="p-card-img-top lozad course_wide_card_img" data-background-image="/system/courses/wide_covers/000/000/022/medium/dr_pers.jpg?1619321441"></div>
+                              <div class="p-card-body">
+                                 <div class="p-card-title primary course_card_title_center">Рисование персонажей в Adobe Photoshop</div>
+                                 <div class="course_card_info">
+                                    <div class="course_card_info_item"><img src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/1_lessons-61269095d1121776a1896ad7bc138282390309333c870365a7b86679fd5a24ac.png" alt="1 lessons"><span>14 часов видео</span></div>
+                                    <div class="course_card_info_item"><img src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/2_exercises-a57f6180b25b29e8c8797b8ca1a3d23be58aa363ac86b3ddc7c2e2b678175943.png" alt="2 exercises"><span>38 заданий</span></div>
+                                    <div class="course_card_info_item"><img src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/3_subjects-0bb0ded7f176ec3190c415f8ad3e801d336eefe339f90334da1125978da29e6e.png" alt="3 subjects"><span>150 тем</span></div>
+                                    <div class="course_card_info_item"><img src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/4_course_period-f4eaf9233d67c93c039cc6c48d68ab11daf2c237e78a19c2a390832b80bae4b8.png" alt="4 course period"><span>4 месяца</span></div>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="cell hidden">
+                           <a class="p-card medium course_card" href="https://pixel.one/course/3/kurs-animatsii-v-after-effects-onlayn">
+                              <div class="p-card-img-top lozad course_card_img" data-background-image="/system/courses/covers/000/000/003/medium/ae.jpg?1604923387"></div>
+                              <div class="p-card-body">
+                                 <div class="p-card-title primary course_card_title_center">Курс анимации в After Effects</div>
+                                 <div class="course_card_info">
+                                    <div class="course_card_info_item"><img src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/1_lessons-61269095d1121776a1896ad7bc138282390309333c870365a7b86679fd5a24ac.png" alt="1 lessons"><span>8 уроков</span></div>
+                                    <div class="course_card_info_item"><img src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/2_exercises-a57f6180b25b29e8c8797b8ca1a3d23be58aa363ac86b3ddc7c2e2b678175943.png" alt="2 exercises"><span>13 заданий</span></div>
+                                    <div class="course_card_info_item"><img src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/3_subjects-0bb0ded7f176ec3190c415f8ad3e801d336eefe339f90334da1125978da29e6e.png" alt="3 subjects"><span>25 тем</span></div>
+                                    <div class="course_card_info_item"><img src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/4_course_period-f4eaf9233d67c93c039cc6c48d68ab11daf2c237e78a19c2a390832b80bae4b8.png" alt="4 course period"><span>3 месяца</span></div>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="cell hidden">
+                           <a class="p-card medium course_card" href="https://pixel.one/course/4/animatsiya-personazha-v-after-effects-onlayn">
+                              <div class="p-card-img-top lozad course_card_img" data-background-image="/system/courses/covers/000/000/004/medium/ae_pers.jpg?1604923435"></div>
+                              <div class="p-card-body">
+                                 <div class="p-card-title primary course_card_title_center">Анимация персонажа в After Effects</div>
+                                 <div class="course_card_info">
+                                    <div class="course_card_info_item"><img src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/1_lessons-61269095d1121776a1896ad7bc138282390309333c870365a7b86679fd5a24ac.png" alt="1 lessons"><span>10 уроков</span></div>
+                                    <div class="course_card_info_item"><img src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/2_exercises-a57f6180b25b29e8c8797b8ca1a3d23be58aa363ac86b3ddc7c2e2b678175943.png" alt="2 exercises"><span>10 заданий</span></div>
+                                    <div class="course_card_info_item"><img src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/3_subjects-0bb0ded7f176ec3190c415f8ad3e801d336eefe339f90334da1125978da29e6e.png" alt="3 subjects"><span>14 тем</span></div>
+                                    <div class="course_card_info_item"><img src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/4_course_period-f4eaf9233d67c93c039cc6c48d68ab11daf2c237e78a19c2a390832b80bae4b8.png" alt="4 course period"><span>4 месяца</span></div>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="mt-4 text-center"><button class="btn btn-outline-primary" data-per-page="4" onclick="loadMoreClick(this, &#39;courses&#39;, &#39;all&#39;)">Показать ещё</button></div>
+                  </div>
+               </div>
+               <div class="index_list">
+                  <div class="pixel-container">
+                     <h2 class="block_title">Полезные шпаргалки</h2>
+                     <div class="index_flex index_cheat_sheets">
+                        <div class="cell" data-id="26">
+                           <div class="card_with_border cheat_sheet_card lozad" data-background-image="/system/cheat_sheets/covers/000/000/026/medium/025.jpg?1617622437" onclick="openComicsModal(26);" data-loaded="true" style="background-image: url(&quot;/system/cheat_sheets/covers/000/000/026/medium/025.jpg?1617622437&quot;);"></div>
+                           <div class="modal modal-comics" id="comics_modal26" role="dialog" tabindex="-1">
+                              <div class="modal-dialog modal-pixel" role="document">
+                                 <div class="modal-content modal-comics-content">
+                                    <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span></button>
+                                    <div class="modal-comics-spinner" style="display:none">
+                                       <div class="loadersmall"></div>
+                                    </div>
+                                    <div class="modal-comics-slider">
+                                       <div class="modal-comics-slide-info-wrapper">
+                                          <div class="modal-comics-slide-info">
+                                             <span class="modal-comics-slide-info-active">1</span> / 
+                                             <spna>8</spna>
+                                          </div>
+                                       </div>
+                                       <div class="modal-next-slide-wrapper" onclick="nextComicsItem()">
+                                          <div class="modal-next-slide">
+                                             <div class="modal-next-slide-arrow"></div>
+                                          </div>
+                                       </div>
+                                       <div class="modal-prev-slide-wrapper" onclick="prevComicsItem()">
+                                          <div class="modal-prev-slide">
+                                             <div class="modal-prev-slide-arrow"></div>
+                                          </div>
+                                       </div>
+                                       <div class="modal-comics-slides"><img alt="comics0" class="modal-comics-slide modal-comics-slide1" data-src="/system/cheat_sheet_pictures/images/000/000/173/original/01.jpg?1617622437"><img alt="comics1" class="modal-comics-slide modal-comics-slide2" data-src="/system/cheat_sheet_pictures/images/000/000/174/original/02.jpg?1617622437"><img alt="comics2" class="modal-comics-slide modal-comics-slide3" data-src="/system/cheat_sheet_pictures/images/000/000/175/original/03.jpg?1617622437"><img alt="comics3" class="modal-comics-slide modal-comics-slide4" data-src="/system/cheat_sheet_pictures/images/000/000/176/original/04.jpg?1617622437"><img alt="comics4" class="modal-comics-slide modal-comics-slide5" data-src="/system/cheat_sheet_pictures/images/000/000/177/original/05.jpg?1617622437"><img alt="comics5" class="modal-comics-slide modal-comics-slide6" data-src="/system/cheat_sheet_pictures/images/000/000/178/original/06.jpg?1617622438"><img alt="comics6" class="modal-comics-slide modal-comics-slide7" data-src="/system/cheat_sheet_pictures/images/000/000/179/original/07.jpg?1617622438"><img alt="comics7" class="modal-comics-slide modal-comics-slide8" data-src="/system/cheat_sheet_pictures/images/000/000/180/original/08.jpg?1617622438"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <script>(() => {
+                              const callback = () => {
+                                const id = 26;
+                                const $comicsModal = $(`#comics_modal${id}`);
+                                // initial values for homework modal
+                                MODAL_COMICSES[id] = {};
+                                MODAL_COMICSES[id].$modal = $comicsModal;
+                                MODAL_COMICSES[id].wasNotOpen = true;
+                                MODAL_COMICSES[id].activeSlideNumber = 1;
+                                MODAL_COMICSES[id].isComics = false;
+                                if (MODAL_COMICSES[id].isComics) {
+                                  MODAL_COMICSES[id].viewed = false;
+                                }
+                              
+                                $comicsModal.on('hidden.bs.modal', function() {
+                                  const comics = MODAL_COMICSES[MODAL_COMICSES.activeComics];
+                              
+                                  if (comics.isComics) {
+                                    const video = comics.$activeSlide.get(0);
+                                    video.pause();
+                                    video.currentTime = 0;
+                                    clearInterval(comics.progressInterval);
+                                  }
+                                  MODAL_COMICSES.activeComics = null;
+                                });
+                              };
+                              
+                              if (document.readyState === 'complete') {
+                                callback();
+                              } else {
+                                document.addEventListener('DOMContentLoaded', callback);
+                              }
+                              })();
+                           </script>
+                        </div>
+                        <div class="cell" data-id="18">
+                           <div class="card_with_border cheat_sheet_card lozad" data-background-image="/system/cheat_sheets/covers/000/000/018/medium/cover.jpg?1604926792" onclick="openComicsModal(18);" data-loaded="true" style="background-image: url(&quot;/system/cheat_sheets/covers/000/000/018/medium/cover.jpg?1604926792&quot;);"></div>
+                           <div class="modal modal-comics" id="comics_modal18" role="dialog" tabindex="-1">
+                              <div class="modal-dialog modal-pixel" role="document">
+                                 <div class="modal-content modal-comics-content">
+                                    <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span></button>
+                                    <div class="modal-comics-spinner" style="display:none">
+                                       <div class="loadersmall"></div>
+                                    </div>
+                                    <div class="modal-comics-slider">
+                                       <div class="modal-comics-slide-info-wrapper">
+                                          <div class="modal-comics-slide-info">
+                                             <span class="modal-comics-slide-info-active">1</span> / 
+                                             <spna>7</spna>
+                                          </div>
+                                       </div>
+                                       <div class="modal-next-slide-wrapper" onclick="nextComicsItem()">
+                                          <div class="modal-next-slide">
+                                             <div class="modal-next-slide-arrow"></div>
+                                          </div>
+                                       </div>
+                                       <div class="modal-prev-slide-wrapper" onclick="prevComicsItem()">
+                                          <div class="modal-prev-slide">
+                                             <div class="modal-prev-slide-arrow"></div>
+                                          </div>
+                                       </div>
+                                       <div class="modal-comics-slides"><img alt="comics0" class="modal-comics-slide modal-comics-slide1" data-src="/system/cheat_sheet_pictures/images/000/000/118/original/00.jpg?1604926817"><img alt="comics1" class="modal-comics-slide modal-comics-slide2" data-src="/system/cheat_sheet_pictures/images/000/000/119/original/001.jpg?1604926817"><img alt="comics2" class="modal-comics-slide modal-comics-slide3" data-src="/system/cheat_sheet_pictures/images/000/000/120/original/002.jpg?1604926817"><img alt="comics3" class="modal-comics-slide modal-comics-slide4" data-src="/system/cheat_sheet_pictures/images/000/000/121/original/003.jpg?1604926817"><img alt="comics4" class="modal-comics-slide modal-comics-slide5" data-src="/system/cheat_sheet_pictures/images/000/000/122/original/004.jpg?1604926817"><img alt="comics5" class="modal-comics-slide modal-comics-slide6" data-src="/system/cheat_sheet_pictures/images/000/000/123/original/005.jpg?1604926817"><img alt="comics6" class="modal-comics-slide modal-comics-slide7" data-src="/system/cheat_sheet_pictures/images/000/000/124/original/006.jpg?1604926817"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <script>(() => {
+                              const callback = () => {
+                                const id = 18;
+                                const $comicsModal = $(`#comics_modal${id}`);
+                                // initial values for homework modal
+                                MODAL_COMICSES[id] = {};
+                                MODAL_COMICSES[id].$modal = $comicsModal;
+                                MODAL_COMICSES[id].wasNotOpen = true;
+                                MODAL_COMICSES[id].activeSlideNumber = 1;
+                                MODAL_COMICSES[id].isComics = false;
+                                if (MODAL_COMICSES[id].isComics) {
+                                  MODAL_COMICSES[id].viewed = false;
+                                }
+                              
+                                $comicsModal.on('hidden.bs.modal', function() {
+                                  const comics = MODAL_COMICSES[MODAL_COMICSES.activeComics];
+                              
+                                  if (comics.isComics) {
+                                    const video = comics.$activeSlide.get(0);
+                                    video.pause();
+                                    video.currentTime = 0;
+                                    clearInterval(comics.progressInterval);
+                                  }
+                                  MODAL_COMICSES.activeComics = null;
+                                });
+                              };
+                              
+                              if (document.readyState === 'complete') {
+                                callback();
+                              } else {
+                                document.addEventListener('DOMContentLoaded', callback);
+                              }
+                              })();
+                           </script>
+                        </div>
+                        <div class="cell" data-id="12">
+                           <div class="card_with_border cheat_sheet_card lozad" data-background-image="/system/cheat_sheets/covers/000/000/012/medium/cover.jpg?1604926792" onclick="openComicsModal(12);" data-loaded="true" style="background-image: url(&quot;/system/cheat_sheets/covers/000/000/012/medium/cover.jpg?1604926792&quot;);"></div>
+                           <div class="modal modal-comics" id="comics_modal12" role="dialog" tabindex="-1">
+                              <div class="modal-dialog modal-pixel" role="document">
+                                 <div class="modal-content modal-comics-content">
+                                    <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span></button>
+                                    <div class="modal-comics-spinner" style="display:none">
+                                       <div class="loadersmall"></div>
+                                    </div>
+                                    <div class="modal-comics-slider">
+                                       <div class="modal-comics-slide-info-wrapper">
+                                          <div class="modal-comics-slide-info">
+                                             <span class="modal-comics-slide-info-active">1</span> / 
+                                             <spna>5</spna>
+                                          </div>
+                                       </div>
+                                       <div class="modal-next-slide-wrapper" onclick="nextComicsItem()">
+                                          <div class="modal-next-slide">
+                                             <div class="modal-next-slide-arrow"></div>
+                                          </div>
+                                       </div>
+                                       <div class="modal-prev-slide-wrapper" onclick="prevComicsItem()">
+                                          <div class="modal-prev-slide">
+                                             <div class="modal-prev-slide-arrow"></div>
+                                          </div>
+                                       </div>
+                                       <div class="modal-comics-slides"><img alt="comics0" class="modal-comics-slide modal-comics-slide1" data-src="/system/cheat_sheet_pictures/images/000/000/079/original/1.jpg?1604926813"><img alt="comics1" class="modal-comics-slide modal-comics-slide2" data-src="/system/cheat_sheet_pictures/images/000/000/080/original/2.jpg?1604926813"><img alt="comics2" class="modal-comics-slide modal-comics-slide3" data-src="/system/cheat_sheet_pictures/images/000/000/081/original/3.jpg?1604926813"><img alt="comics3" class="modal-comics-slide modal-comics-slide4" data-src="/system/cheat_sheet_pictures/images/000/000/082/original/4.jpg?1604926813"><img alt="comics4" class="modal-comics-slide modal-comics-slide5" data-src="/system/cheat_sheet_pictures/images/000/000/083/original/5.jpg?1604926813"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <script>(() => {
+                              const callback = () => {
+                                const id = 12;
+                                const $comicsModal = $(`#comics_modal${id}`);
+                                // initial values for homework modal
+                                MODAL_COMICSES[id] = {};
+                                MODAL_COMICSES[id].$modal = $comicsModal;
+                                MODAL_COMICSES[id].wasNotOpen = true;
+                                MODAL_COMICSES[id].activeSlideNumber = 1;
+                                MODAL_COMICSES[id].isComics = false;
+                                if (MODAL_COMICSES[id].isComics) {
+                                  MODAL_COMICSES[id].viewed = false;
+                                }
+                              
+                                $comicsModal.on('hidden.bs.modal', function() {
+                                  const comics = MODAL_COMICSES[MODAL_COMICSES.activeComics];
+                              
+                                  if (comics.isComics) {
+                                    const video = comics.$activeSlide.get(0);
+                                    video.pause();
+                                    video.currentTime = 0;
+                                    clearInterval(comics.progressInterval);
+                                  }
+                                  MODAL_COMICSES.activeComics = null;
+                                });
+                              };
+                              
+                              if (document.readyState === 'complete') {
+                                callback();
+                              } else {
+                                document.addEventListener('DOMContentLoaded', callback);
+                              }
+                              })();
+                           </script>
+                        </div>
+                        <div class="cell" data-id="20">
+                           <div class="card_with_border cheat_sheet_card lozad" data-background-image="/system/cheat_sheets/covers/000/000/020/medium/cover11.jpg?1604926792" onclick="openComicsModal(20);" data-loaded="true" style="background-image: url(&quot;/system/cheat_sheets/covers/000/000/020/medium/cover11.jpg?1604926792&quot;);"></div>
+                           <div class="modal modal-comics" id="comics_modal20" role="dialog" tabindex="-1">
+                              <div class="modal-dialog modal-pixel" role="document">
+                                 <div class="modal-content modal-comics-content">
+                                    <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span></button>
+                                    <div class="modal-comics-spinner" style="display:none">
+                                       <div class="loadersmall"></div>
+                                    </div>
+                                    <div class="modal-comics-slider">
+                                       <div class="modal-comics-slide-info-wrapper">
+                                          <div class="modal-comics-slide-info">
+                                             <span class="modal-comics-slide-info-active">1</span> / 
+                                             <spna>6</spna>
+                                          </div>
+                                       </div>
+                                       <div class="modal-next-slide-wrapper" onclick="nextComicsItem()">
+                                          <div class="modal-next-slide">
+                                             <div class="modal-next-slide-arrow"></div>
+                                          </div>
+                                       </div>
+                                       <div class="modal-prev-slide-wrapper" onclick="prevComicsItem()">
+                                          <div class="modal-prev-slide">
+                                             <div class="modal-prev-slide-arrow"></div>
+                                          </div>
+                                       </div>
+                                       <div class="modal-comics-slides"><img alt="comics0" class="modal-comics-slide modal-comics-slide1" data-src="/system/cheat_sheet_pictures/images/000/000/132/original/000.jpg?1604926818"><img alt="comics1" class="modal-comics-slide modal-comics-slide2" data-src="/system/cheat_sheet_pictures/images/000/000/133/original/001_%281%29.jpg?1604926818"><img alt="comics2" class="modal-comics-slide modal-comics-slide3" data-src="/system/cheat_sheet_pictures/images/000/000/134/original/002_%281%29.jpg?1604926818"><img alt="comics3" class="modal-comics-slide modal-comics-slide4" data-src="/system/cheat_sheet_pictures/images/000/000/135/original/003_%281%29.jpg?1604926818"><img alt="comics4" class="modal-comics-slide modal-comics-slide5" data-src="/system/cheat_sheet_pictures/images/000/000/136/original/004_%281%29.jpg?1604926818"><img alt="comics5" class="modal-comics-slide modal-comics-slide6" data-src="/system/cheat_sheet_pictures/images/000/000/137/original/005_%281%29.jpg?1604926818"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <script>(() => {
+                              const callback = () => {
+                                const id = 20;
+                                const $comicsModal = $(`#comics_modal${id}`);
+                                // initial values for homework modal
+                                MODAL_COMICSES[id] = {};
+                                MODAL_COMICSES[id].$modal = $comicsModal;
+                                MODAL_COMICSES[id].wasNotOpen = true;
+                                MODAL_COMICSES[id].activeSlideNumber = 1;
+                                MODAL_COMICSES[id].isComics = false;
+                                if (MODAL_COMICSES[id].isComics) {
+                                  MODAL_COMICSES[id].viewed = false;
+                                }
+                              
+                                $comicsModal.on('hidden.bs.modal', function() {
+                                  const comics = MODAL_COMICSES[MODAL_COMICSES.activeComics];
+                              
+                                  if (comics.isComics) {
+                                    const video = comics.$activeSlide.get(0);
+                                    video.pause();
+                                    video.currentTime = 0;
+                                    clearInterval(comics.progressInterval);
+                                  }
+                                  MODAL_COMICSES.activeComics = null;
+                                });
+                              };
+                              
+                              if (document.readyState === 'complete') {
+                                callback();
+                              } else {
+                                document.addEventListener('DOMContentLoaded', callback);
+                              }
+                              })();
+                           </script>
+                        </div>
+                     </div>
+                     <div class="mt-4 text-center"><button class="btn btn-outline-primary" data-count="26" data-per-page="4" onclick="loadMoreClick(this, &#39;cheat_sheets&#39;, &#39;all&#39;)">Показать ещё</button></div>
+                  </div>
+               </div>
+               <div class="index_list index_educational_articles_background">
+                  <div class="pixel-container">
+                     <h2 class="block_title">Обучающие статьи</h2>
+                     <div class="article_covers index_flex">
+                        <div class="cell" data-id="113">
+                           <a class="p-card medium article_card" href="https://pixel.one/educational-articles/113/ritm-v-risunke">
+                              <img data-src="/system/articles/covers/000/000/113/short/sk03-1.jpg?1604925477" class="lozad article_card_img" src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/sk03-1.jpg" data-loaded="true">
+                              <div class="article_cover_body">
+                                 <div class="p-card-title">Ритм в рисунке</div>
+                                 <div class="article_cover_description -short">«Крутость» художника измеряются не часами корпения или проработкой деталей, а тем, насколько эффективно он решает сложные задачи на этапе идеи.</div>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="cell" data-id="65">
+                           <a class="p-card medium article_card" href="https://pixel.one/educational-articles/65/professiya-illyustrator-ili-komu-nuzhny-vektornye-illyustratsii">
+                              <img data-src="/system/articles/covers/000/000/065/short/cat_flashlight_orange.jpg?1604925470" class="lozad article_card_img" src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/cat_flashlight_orange.jpg" data-loaded="true">
+                              <div class="article_cover_body">
+                                 <div class="p-card-title">Профессия иллюстратор или кому нужны векторные иллюстрации</div>
+                                 <div class="article_cover_description -short">Как зарабатывать на векторных иллюстрациях? Куда применить навыки и как красиво подать свой работы?</div>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="cell" data-id="8">
+                           <a class="p-card medium article_card" href="https://pixel.one/educational-articles/8/referensy-ili-kak-ne-srisovyvat">
+                              <img data-src="/system/articles/covers/000/000/008/short/ref4.jpg?1604925463" class="lozad article_card_img" src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/ref4.jpg" data-loaded="true">
+                              <div class="article_cover_body">
+                                 <div class="p-card-title">Референсы или как не срисовывать?</div>
+                                 <div class="article_cover_description -short">Новички часто срисовывают, когда учатся рисовать. Проходят недели и месяцы, а результата от срисовки всё нет.</div>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="cell" data-id="114">
+                           <a class="p-card medium article_card" href="https://pixel.one/educational-articles/114/planovost-v-eskize">
+                              <img data-src="/system/articles/covers/000/000/114/short/sk04-1.jpg?1604925477" class="lozad article_card_img" src="./Pixel - школа рисования и анимации _ Онлайн школа компьютерной графики и цифрового рисунка_files/sk04-1.jpg" data-loaded="true">
+                              <div class="article_cover_body">
+                                 <div class="p-card-title">Плановость в эскизе</div>
+                                 <div class="article_cover_description -short">Что делать, если вы хотите нарисовать объем тоном, без линий и без светотени? Эта статья подскажет, как быстро придавать рисунку объем еще на стадии наброска.</div>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="mt-4 text-center"><button class="btn btn-outline-primary" data-count="28" data-per-page="4" onclick="loadMoreClick(this, &#39;educational_articles&#39;, &#39;all&#39;)">Показать ещё</button></div>
+                  </div>
+               </div>
+               <div class="index_list">
+                  <div class="pixel-container">
+                     <h2 class="block_title">Доработки домашних заданий</h2>
+                     <div class="article_covers index_flex">
+                        <div class="cell" data-id="154">
+                           <a class="p-card medium article_card" href="https://pixel.one/homework-improvement/154/korobochka-kateriny-polyakovoy">
+                              <img data-src="/system/articles/covers/000/000/154/short/JOZ47e5JGjg.jpg?1608205304" class="lozad article_card_img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+                              <div class="article_cover_body">
+                                 <div class="p-card-title">Коробочка Катерины Поляковой </div>
+                                 <div class="article_cover_description -short">Компоненты успешного рисунка: упорный труд, работа над ошибками, насладиться процессом и обращать внимание на детали. Посмотрим, как проходила работа над коробочкой у нашей ученицы Катерины Поляковой. </div>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="cell" data-id="174">
+                           <a class="p-card medium article_card" href="https://pixel.one/homework-improvement/174/uyutnaya-illyustratsiya-s-yarkim-osvescheniem-mily-yakushinoy">
+                              <img data-src="/system/articles/covers/000/000/174/short/%D1%81%D0%B2%D0%B5%D1%826_%D0%9C%D0%BE%D0%BD%D1%82%D0%B0%D0%B6%D0%BD%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C_1.jpg?1611576833" class="lozad article_card_img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+                              <div class="article_cover_body">
+                                 <div class="p-card-title">Уютная иллюстрация с ярким освещением Милы Якушиной</div>
+                                 <div class="article_cover_description -short">Уроки по работе со светом и тенью — критически важный блок знаний для будущих иллюстраторов. Работать со светом учимся, создавая иллюстрацию, в которой должен быть яркий источник освещения. Посмотрим, что придумала наша ученица Мила Якушина. </div>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="cell" data-id="100">
+                           <a class="p-card medium article_card" href="https://pixel.one/homework-improvement/100/izometriya-inny-chevikovoy">
+                              <img data-src="/system/articles/covers/000/000/100/short/kfTrSHGYESs.jpg?1604925475" class="lozad article_card_img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+                              <div class="article_cover_body">
+                                 <div class="p-card-title">Изометрия Инны Чевиковой</div>
+                                 <div class="article_cover_description -short">Посмотрим, как по кирпичику собиралась изометрическая квартира из сериала «Как я встретил вашу маму».</div>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="cell" data-id="6">
+                           <a class="p-card medium article_card" href="https://pixel.one/homework-improvement/6/personazh-s-osvescheniem-aleksandry-galchevskoy">
+                              <img data-src="/system/articles/covers/000/000/006/short/bGjO_WhQBuA.jpg?1604925463" class="lozad article_card_img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+                              <div class="article_cover_body">
+                                 <div class="p-card-title">Персонаж с освещением Александры Гальчевской</div>
+                                 <div class="article_cover_description -short">Автор работала над иллюстрацией несколько дней. Самое важное за несколько минут в нашей статье.</div>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="mt-4 text-center"><button class="btn btn-outline-primary" data-count="144" data-per-page="4" onclick="loadMoreClick(this, &#39;homework_improvement_articles&#39;, &#39;all&#39;)">Показать ещё</button></div>
+                  </div>
+               </div>
+               <div class="index_list index_student_stories_background">
+                  <div class="pixel-container">
+                     <h2 class="block_title">Истории учеников</h2>
+                     <div class="article_covers index_flex">
+                        <div class="cell" data-id="37">
+                           <a class="p-card medium article_card" href="https://pixel.one/student-success-stories/37/vsyo-poluchitsya-glavnoe-mnogo-truditsya">
+                              <img data-src="/system/articles/covers/000/000/037/short/4omwYAFU.jpg?1604925467" class="lozad article_card_img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+                              <div class="article_cover_body">
+                                 <div class="p-card-title">Всё получится, главное — много трудиться</div>
+                                 <div class="article_cover_description -short">Не нужно постоянно сравнивать свои работы с чужими, ведь за этим стоит большая работа, которую мы можем не видеть. Верьте в себя! В рубрике «Интервью с учеником» наша выпускница Виктория Кан.</div>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="cell" data-id="26">
+                           <a class="p-card medium article_card" href="https://pixel.one/student-success-stories/26/iz-ekonomista-v-illyustratory">
+                              <img data-src="/system/articles/covers/000/000/026/short/a-w5hxVc.jpg?1604925465" class="lozad article_card_img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+                              <div class="article_cover_body">
+                                 <div class="p-card-title">Из экономиста в иллюстраторы</div>
+                                 <div class="article_cover_description -short">Как «несерьёзное» увлечение стало вполне себе серьёзным жизненным выбором, рассказала наша выпускница Виктория.</div>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="cell" data-id="17">
+                           <a class="p-card medium article_card" href="https://pixel.one/student-success-stories/17/umenie-risovat-ne-talant-a-upornaya-rabota">
+                              <img data-src="/system/articles/covers/000/000/017/short/1.jpg?1604925464" class="lozad article_card_img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+                              <div class="article_cover_body">
+                                 <div class="p-card-title">Умение рисовать — не талант, а упорная работа</div>
+                                 <div class="article_cover_description -short">Как перейти с традиционного рисования в CG? Зачем начинать с основ, если за спиной годы практики?</div>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="cell" data-id="167">
+                           <a class="p-card medium article_card" href="https://pixel.one/student-success-stories/167/za-krasivym-bystrosketchem-stoyat-gody-praktiki-oshibok-somneniy-trudnostey-i-kritiki">
+                              <img data-src="/system/articles/covers/000/000/167/short/HPyzp_3MkY4.jpg?1608474275" class="lozad article_card_img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+                              <div class="article_cover_body">
+                                 <div class="p-card-title">За красивым «быстроскетчем» стоят годы практики, ошибок, сомнений, трудностей и критики</div>
+                                 <div class="article_cover_description -short">Интервью с нашей ученицей Татьяной Бондаренко — по профессии Татьяна веб-дизайнер, мы спросили её о полезных навыках для дизайнера и художника, дисциплине и секрете успешных рисунков.</div>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="mt-4 text-center"><button class="btn btn-outline-primary" data-count="118" data-per-page="4" onclick="loadMoreClick(this, &#39;student_stories_articles&#39;, &#39;all&#39;)">Показать ещё</button></div>
+                  </div>
+               </div>
+               <div class="index_list">
+                  <div class="pixel-container">
+                     <h2 class="block_title">Вебинары</h2>
+                     <div class="index_flex">
+                        <div class="cell" data-id="54">
+                           <a class="p-card medium course_card" href="https://pixel.one/webinars/54">
+                              <div class="p-card-img-top preserve_animation card_webinar_img lozad" data-animated="" data-background-image="/system/videos/covers/000/000/054/thumb/sWQjwlTBC6Y.jpg?1604928826" data-id="54" data-name="webinar" id="preserve_animation_webinar_54"></div>
+                              <div class="p-card-body">
+                                 <div class="p-card-title primary" title="Каменный голем">Каменный голем</div>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="cell" data-id="62">
+                           <a class="p-card medium course_card" href="https://pixel.one/webinars/62">
+                              <div class="p-card-img-top preserve_animation card_webinar_img lozad" data-animated="" data-background-image="/system/videos/covers/000/000/062/thumb/girl.jpg?1604928853" data-id="62" data-name="webinar" id="preserve_animation_webinar_62"></div>
+                              <div class="p-card-body">
+                                 <div class="p-card-title primary" title="Девочка с котиком">Девочка с котиком</div>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="cell" data-id="125">
+                           <a class="p-card medium course_card" href="https://pixel.one/webinars/125">
+                              <div class="p-card-img-top preserve_animation card_webinar_img lozad" data-animated="" data-background-image="/system/videos/covers/000/000/125/thumb/big-man-01.jpg?1604928961" data-id="125" data-name="webinar" id="preserve_animation_webinar_125"></div>
+                              <div class="p-card-body">
+                                 <div class="p-card-title primary" title="Большой человек">Большой человек</div>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="cell" data-id="90">
+                           <a class="p-card medium course_card" href="https://pixel.one/webinars/90">
+                              <div class="p-card-img-top preserve_animation card_webinar_img lozad" data-animated="" data-background-image="/system/videos/covers/000/000/090/thumb/magic-ball-01.jpg?1604928897" data-id="90" data-name="webinar" id="preserve_animation_webinar_90"></div>
+                              <div class="p-card-body">
+                                 <div class="p-card-title primary" title="Магический шар">Магический шар</div>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="cell" data-id="63">
+                           <a class="p-card medium course_card" href="https://pixel.one/webinars/63">
+                              <div class="p-card-img-top preserve_animation card_webinar_img lozad" data-animated="" data-background-image="/system/videos/covers/000/000/063/thumb/Untitled-1.jpg?1604928854" data-id="63" data-name="webinar" id="preserve_animation_webinar_63"></div>
+                              <div class="p-card-body">
+                                 <div class="p-card-title primary" title="Мальчик с лапшой">Мальчик с лапшой</div>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="cell" data-id="141">
+                           <a class="p-card medium course_card" href="https://pixel.one/webinars/141">
+                              <div class="p-card-img-top preserve_animation card_webinar_img lozad" data-animated="" data-background-image="/system/videos/covers/000/000/141/thumb/cat-01_%281%29.jpg?1604928999" data-id="141" data-name="webinar" id="preserve_animation_webinar_141"></div>
+                              <div class="p-card-body">
+                                 <div class="p-card-title primary" title="Котик с печенькой">Котик с печенькой</div>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="mt-4 text-center"><button class="btn btn-outline-primary" data-count="177" data-per-page="6" onclick="loadMoreClick(this, &#39;webinars&#39;, &#39;all&#39;)">Показать ещё</button></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
