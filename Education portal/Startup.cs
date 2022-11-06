@@ -51,7 +51,7 @@ namespace Education_portal
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Course}/{action=Index}");
             });
         }
     }

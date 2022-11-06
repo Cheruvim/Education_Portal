@@ -34,7 +34,7 @@
                 <p class="card-text">@course.Description.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <a class="btn btn-sm btn-outline-secondary" asp-controller="Home" asp-action="Course" asp-route-courseId="@course.CourseId">View</a>
+                    <a class="btn btn-sm btn-outline-secondary" asp-controller="Course" asp-action="Course" asp-route-courseId="@course.CourseId">View</a>
                     <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                   </div>
                   <small class="text-muted">9 mins</small>
@@ -42,7 +42,6 @@
               </div>
             </div>
           </div>
-
         }
       </div>
 

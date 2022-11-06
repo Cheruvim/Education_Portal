@@ -10,10 +10,10 @@ namespace Education_portal.Controllers
 {
     public class AccountController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<AccountController> _logger;
         private readonly DataContext _db;
 
-        public AccountController(ILogger<HomeController> logger)
+        public AccountController(ILogger<AccountController> logger)
         {
             _logger = logger;
             _db = new DataContext();
@@ -54,7 +54,7 @@ namespace Education_portal.Controllers
         {
             UserCookieUtility.SetSavedUser(HttpContext, 0, string.Empty, false, string.Empty);
             // Выполняет переадресацию на страницу авторизации (метод Login() контроллера управления аккаунтами).
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index", "Course");
         }
 
 
@@ -90,7 +90,7 @@ namespace Education_portal.Controllers
             // на главную страницу приложения (метод Index контроллера главной страницы).
             UserCookieUtility.SetSavedUser(HttpContext, token.UserId, token.Login, token.IsAdmin, token.Token);
 
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index", "Course");
         }
 
         /// <summary>
