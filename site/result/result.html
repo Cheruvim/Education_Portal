@@ -7,7 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!----======== CSS ======== -->
-    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="./css/bootstrap.css">
+	<link rel="stylesheet" href="./css/style.css">
+
+	<!----<link rel="stylesheet" href="./css/stylePixel.css">-->
+
+
     
     <!----===== Boxicons CSS ===== -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
@@ -15,7 +20,14 @@
     <!--<title>Dashboard Sidebar Menu</title>--> 
 </head>
 <body>
-    <nav class="sidebar close">
+	<main>
+		<div class="container-fluid">
+    <div class="row flex-nowrap">
+        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+			
+			    <nav class="sidebar">
+
         <header>
             <div class="image-text">
                 <span class="image">
@@ -107,13 +119,26 @@
                 
             </div>
         </div>
-
     </nav>
 
-    <section class="home">
-    </section>
+			
+			    </nav>
 
-    <script>
+			
+			
+			
+			
+            </div>
+        </div>
+        <div class="col py-3">
+            Content area...
+        </div>
+    </div>
+</div>
+	</main>
+	
+	<script src="./js/bootstrap.js" ></script>
+	    <script>
         const body = document.querySelector('body'),
       sidebar = body.querySelector('nav'),
       toggle = body.querySelector(".toggle"),
@@ -141,6 +166,7 @@ modeSwitch.addEventListener("click" , () =>{
     }
 });
     </script>
+
 
 </body>
 </html>
