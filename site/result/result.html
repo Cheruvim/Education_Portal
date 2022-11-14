@@ -7,9 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!----======== CSS ======== -->
-	<link rel="stylesheet" href="./css/bootstrap.css">
-	<link rel="stylesheet" href="./css/style.css">
-
+    <link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/bootst	rap.css">
 	<!----<link rel="stylesheet" href="./css/stylePixel.css">-->
 
 
@@ -21,152 +20,133 @@
 </head>
 <body>
 	<main>
-		<div class="container-fluid">
-    <div class="row flex-nowrap">
-        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
-            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
-			
-			    <nav class="sidebar">
+	<div class="container-fluid">
+		<div class="row flex-nowrap">
+			<div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-white border-end">
+				<div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+					<a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+						<span class="fs-5 d-none d-sm-inline text-dark">Menu</span>
+					</a>
+					<ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+						<li class="nav-item">
+							<a href="#" class="nav-link align-middle px-0">
+								<i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
+							</a>
+						</li>
+						<li>
+							<a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+								<i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Dashboard</span> </a>
+							<ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+								<li class="w-100">
+									<a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 1 </a>
+								</li>
+								<li>
+									<a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 2 </a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="nav-link px-0 align-middle">
+								<i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Orders</span></a>
+						</li>
+						<li>
+							<a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
+								<i class="fs-4 bi-bootstrap"></i> <span class="ms-1 d-none d-sm-inline">Bootstrap</span></a>
+							<ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+								<li class="w-100">
+									<a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 1</a>
+								</li>
+								<li>
+									<a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 2</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+								<i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline">Products</span> </a>
+								<ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
+								<li class="w-100">
+									<a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 1</a>
+								</li>
+								<li>
+									<a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 2</a>
+								</li>
+								<li>
+									<a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 3</a>
+								</li>
+								<li>
+									<a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 4</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="nav-link px-0 align-middle">
+								<i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Customers</span> </a>
+						</li>
+					</ul>
+					<hr>
+				</div>
+			</div>
+			<div class="container col py-3">
 
-        <header>
-            <div class="image-text">
-                <span class="image">
-                    <!--<img src="logo.png" alt="">-->
-                </span>
+				
+				<div class="p-5 mb-4 bg-light rounded-3">
+				  <div class="container-fluid py-5">
+					<h1 class="display-5 fw-bold">Пользовательский джамботрон</h1>
+					<p class="col-md-8 fs-4">Используя ряд утилит, Вы можете создать этот jumbotron, точно такой же, как в предыдущих версиях Bootstrap. Ознакомьтесь с приведенными ниже примерами, как Вы можете сделать ремикс и изменить его по своему вкусу.</p>
+					<button class="btn btn-primary btn-lg" type="button">Пример кнопки</button>
+				  </div>
+				</div>
+				
+				<div class="row row-cols-1 row-cols-md-3 g-4 d-flex align-items-center">
+				
+					
+					<div class="col">
+						<div class="card">
+						  <svg class="bd-placeholder-img card-img-top" width="100%" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Заглушка изображения" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Заглушка изображения</text></svg>
 
-                <div class="text logo-text">
-                    <span class="name">Codinglab</span>
-                    <span class="profession">Web developer</span>
-                </div>
-            </div>
+						  <div class="card-body">
+							<h5 class="card-title">Заголовок карточки</h5>
+							<p class="card-text">Это более длинная карта С вспомогательным текстом ниже в качестве естественного перехода к дополнительному контенту. Этот контент немного длиннее.</p>
+						  </div>
+						</div>	
+					</div>											
+					<div class="col">
+						<div class="card">
+					  <svg class="bd-placeholder-img card-img-top" width="100%" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Заглушка изображения" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Заглушка изображения</text></svg>
+						  <div class="card-body">
+							<h5 class="card-title">Заголовок карточки</h5>
+							<p class="card-text">Это более длинная карта С вспомогательным текстом ниже в качестве естественного перехода к дополнительному контенту. Этот контент немного длиннее.</p>
+						  </div>
+						</div>
+					</div>					<div class="col">
+						<div class="card">
+					  <svg class="bd-placeholder-img card-img-top" width="100%" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Заглушка изображения" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Заглушка изображения</text></svg>
+						  <div class="card-body">
+							<h5 class="card-title">Заголовок карточки</h5>
+							<p class="card-text">Это более длинная карта С вспомогательным текстом ниже в качестве естественного перехода к дополнительному контенту. Этот контент немного длиннее.</p>
+						  </div>
+						</div>
+					</div>					<div class="col">
+						<div class="card">
+					  <svg class="bd-placeholder-img card-img-top" width="100%" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Заглушка изображения" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Заглушка изображения</text></svg>
+						  <div class="card-body">
+							<h5 class="card-title">Заголовок карточки</h5>
+							<p class="card-text">Это более длинная карта С вспомогательным текстом ниже в качестве естественного перехода к дополнительному контенту. Этот контент немного длиннее.</p>
+						  </div>
+						</div>
+					</div>
+				  
+				  
+				  
+				</div>
 
-            <i class='bx bx-chevron-right toggle'></i>
-        </header>
-
-        <div class="menu-bar">
-            <div class="menu">
-
-                <li class="search-box">
-                    <i class='bx bx-search icon'></i>
-                    <input type="text" placeholder="Search...">
-                </li>
-
-                <ul class="menu-links">
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class='bx bx-home-alt icon' ></i>
-                            <span class="text nav-text">Dashboard</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class='bx bx-bar-chart-alt-2 icon' ></i>
-                            <span class="text nav-text">Revenue</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class='bx bx-bell icon'></i>
-                            <span class="text nav-text">Notifications</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class='bx bx-pie-chart-alt icon' ></i>
-                            <span class="text nav-text">Analytics</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class='bx bx-heart icon' ></i>
-                            <span class="text nav-text">Likes</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class='bx bx-wallet icon' ></i>
-                            <span class="text nav-text">Wallets</span>
-                        </a>
-                    </li>
-
-                </ul>
-            </div>
-
-            <div class="bottom-content">
-                <li class="">
-                    <a href="#">
-                        <i class='bx bx-log-out icon' ></i>
-                        <span class="text nav-text">Logout</span>
-                    </a>
-                </li>
-
-                <li class="mode">
-                    <div class="sun-moon">
-                        <i class='bx bx-moon icon moon'></i>
-                        <i class='bx bx-sun icon sun'></i>
-                    </div>
-                    <span class="mode-text text">Dark mode</span>
-
-                    <div class="toggle-switch">
-                        <span class="switch"></span>
-                    </div>
-                </li>
-                
-            </div>
-        </div>
-    </nav>
-
-			
-			    </nav>
-
-			
-			
-			
-			
-            </div>
-        </div>
-        <div class="col py-3">
-            Content area...
-        </div>
-    </div>
-</div>
+			</div>
+		</div>
+	</div>
 	</main>
 	
 	<script src="./js/bootstrap.js" ></script>
-	    <script>
-        const body = document.querySelector('body'),
-      sidebar = body.querySelector('nav'),
-      toggle = body.querySelector(".toggle"),
-      searchBtn = body.querySelector(".search-box"),
-      modeSwitch = body.querySelector(".toggle-switch"),
-      modeText = body.querySelector(".mode-text");
-
-
-toggle.addEventListener("click" , () =>{
-    sidebar.classList.toggle("close");
-})
-
-searchBtn.addEventListener("click" , () =>{
-    sidebar.classList.remove("close");
-})
-
-modeSwitch.addEventListener("click" , () =>{
-    body.classList.toggle("dark");
-    
-    if(body.classList.contains("dark")){
-        modeText.innerText = "Light mode";
-    }else{
-        modeText.innerText = "Dark mode";
-        
-    }
-});
-    </script>
-
 
 </body>
 </html>

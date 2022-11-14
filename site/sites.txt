@@ -2,3 +2,9 @@ https://mdbootstrap.com/docs/standard/extended/sidebar/
 https://mdbootstrap.com/snippets/standard/mdbootstrap/2923164
 https://dev.to/codeply/bootstrap-5-sidebar-examples-38pb
 https://getbootstrap.com/docs/5.0/examples/sidebars/
+
+
+https://getbootstrap.su/docs/5.0/utilities/borders/ - 		русские доки для bootstrap5
+https://bootstrap-4.ru/docs/5.2/layout/gutters/			еще 1 русские доки
+https://getbootstrap.com/docs/5.0/components/carousel/		англ доки
+https://getbootstrap.com/docs/5.0/examples/offcanvas-navbar/	то, какое расположение должно быть
