@@ -15,15 +15,48 @@
     
     <!----===== Boxicons CSS ===== -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-    
+    <style>
+	.main-container
+	{
+		width: 985px;
+		box-sizing: border-box;
+		
+		    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    margin-left: 84px;
+    -webkit-box-flex: 1;
+    flex: 1 0 auto;
+    overflow-x: auto;
+	}
+	
+	.pixel {
+    font-family: Roboto, "Open Sans", "Arial" !important;
+    font-size: 15px;
+    line-height: 18px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 1124px;
+    overflow-x: hidden;}
+	
+	.index_wrapper {
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+	</style>
     <!--<title>Dashboard Sidebar Menu</title>--> 
 </head>
-<body>
+<body class="pixel">
 	<main>
 	<div class="container-fluid">
 		<div class="row flex-nowrap">
-			<div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-white border-end">
-				<div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+			<div class="col-auto px-sm-2 px-0 bg-white border-end">
+				<div class="d-flex flex-column align-items-center  px-3 pt-2 text-white min-vh-100">
 					<a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
 						<span class="fs-5 d-none d-sm-inline text-dark">Menu</span>
 					</a>
@@ -87,9 +120,12 @@
 					<hr>
 				</div>
 			</div>
-			<div class="container col py-3">
+			
+			
+			<div class="main-container">
+			<div class="col py-3 main-container" >
 
-				
+	<!----			
 				<div class="p-5 mb-4 bg-light rounded-3">
 				  <div class="container-fluid py-5">
 					<h1 class="display-5 fw-bold">Пользовательский джамботрон</h1>
@@ -97,8 +133,8 @@
 					<button class="btn btn-primary btn-lg" type="button">Пример кнопки</button>
 				  </div>
 				</div>
-				
-				<div class="row row-cols-1 row-cols-md-3 g-4 d-flex align-items-center">
+		--> 		
+				<div class="row row-cols-3  g-4 d-flex align-items-center index_wrapper">
 				
 					
 					<div class="col">
@@ -142,6 +178,9 @@
 				</div>
 
 			</div>
+		
+			</div>
+			
 		</div>
 	</div>
 	</main>

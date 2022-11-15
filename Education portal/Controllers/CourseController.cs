@@ -1,9 +1,11 @@
-﻿using System.Diagnostics;
+﻿using System.Collections.Generic;
+using System.Diagnostics;
 using DateBaseServices;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Education_portal.Models;
 using Education_portal.Utils;
+using EducationPortal.Db.Models;
 
 namespace Education_portal.Controllers
 {
@@ -23,7 +25,10 @@ namespace Education_portal.Controllers
         {
             var user = UserCookieUtility.GetUserInfoFromCookies(HttpContext);
             var courses = _db.Courses.GetAllCourses();
-            var coursesForUser = _db.Courses.GetCoursesByUserId(user.UserId, user.Token);
+            var coursesForUser = new List<Course>();
+            if(user.Token != null)
+                coursesForUser = _db.Courses.GetCoursesByUserId(user.UserId, user.Token);
+
             return View((courses, coursesForUser));
         }
 
@@ -31,7 +36,11 @@ namespace Education_portal.Controllers
         public IActionResult Course(int courseId)
         {
             var user = UserCookieUtility.GetUserInfoFromCookies(HttpContext);
-            var coursesForUser = _db.Courses.GetCoursesByUserId(user.UserId, user.Token);
+            var coursesForUser = new List<Course>();
+            if (user.Token != null)
+            {
+                coursesForUser = _db.Courses.GetCoursesByUserId(user.UserId, user.Token);
+            }
 
             var course = _db.Courses.GetCourseByCourseId(courseId);
 
@@ -44,7 +53,11 @@ namespace Education_portal.Controllers
         public IActionResult BoughtCourse(int courseId)
         {
             var user = UserCookieUtility.GetUserInfoFromCookies(HttpContext);
-            var coursesForUser = _db.Courses.GetCoursesByUserId(user.UserId, user.Token);
+            var coursesForUser = new List<Course>();
+            if (user.Token != null)
+            {
+                coursesForUser = _db.Courses.GetCoursesByUserId(user.UserId, user.Token);
+            }
 
             var course = _db.Courses.GetCourseByCourseId(courseId);
 
@@ -62,7 +75,15 @@ namespace Education_portal.Controllers
         public IActionResult BuyCourse(int courseId)
         {
             var user = UserCookieUtility.GetUserInfoFromCookies(HttpContext);
-            var coursesForUser = _db.Courses.GetCoursesByUserId(user.UserId, user.Token);
+            var coursesForUser = new List<Course>();
+            if (user.Token != null)
+            {
+                coursesForUser = _db.Courses.GetCoursesByUserId(user.UserId, user.Token);
+            }
+            else
+            {
+                return RedirectToAction("Login", "Account");
+            }
 
             var course = _db.Courses.GetCourseByCourseId(courseId);
 
