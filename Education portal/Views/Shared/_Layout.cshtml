@@ -1,62 +1,119 @@
 ﻿<!DOCTYPE html>
+  <!-- Coding by CodingLab | www.codinglabweb.com -->
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="~/css/style.css">
+	<link rel="stylesheet" href="~/css/bootstrap.css">
+	<!----<link rel="stylesheet" href="./css/stylePixel.css">-->
+
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <title>@ViewData["Title"] - Education_portal</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
-
-
-
-    <!-- Bootstrap core CSS -->
-    <link href="~/css/bootstrap.min.css" rel="stylesheet">
-    <link href="~/css/site.css" rel="stylesheet">
 
 </head>
 <body>
-<header>
-<nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
-  <a asp-controller="Course" asp-action="Index" class="navbar-brand">Offcanvas navbar</a>
+	<main>
+	<div class="container-fluid">
+		<div class="row flex-nowrap">
+			<div class="col-auto px-sm-2 px-0 bg-white border-end">
+				<div class="d-flex flex-column align-items-center  px-3 pt-2 text-white min-vh-100">
+					<a asp-controller="Course" asp-action="Index" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+						<span class="fs-5 d-none d-sm-inline text-dark">Menu</span>
+					</a>
 
-  <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-    @await Component.InvokeAsync("GetAuthorizedUser")
-  </div>
-</nav>
-</header>
+					<ul class="nav nav-pills flex-column mb-0 align-items-center align-items-sm-start" id="account">
+						<li class="nav-item">
+							<a href="#" class="nav-link align-middle px-0">
+							      @await Component.InvokeAsync("GetAuthorizedUser")
+							      <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
+							</a>
+						</li>
+					</ul>
 
-@RenderBody()
+					<ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+						<li class="nav-item">
+							<a href="#" class="nav-link align-middle px-0">
+								<i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
+							</a>
+						</li>
+						<li>
+							<a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+								<i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Dashboard</span> </a>
+							<ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+								<li class="w-100">
+									<a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 1 </a>
+								</li>
+								<li>
+									<a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 2 </a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="nav-link px-0 align-middle">
+								<i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Orders</span></a>
+						</li>
+						<li>
+							<a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
+								<i class="fs-4 bi-bootstrap"></i> <span class="ms-1 d-none d-sm-inline">Bootstrap</span></a>
+							<ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+								<li class="w-100">
+									<a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 1</a>
+								</li>
+								<li>
+									<a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 2</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+								<i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline">Products</span> </a>
+								<ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
+								<li class="w-100">
+									<a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 1</a>
+								</li>
+								<li>
+									<a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 2</a>
+								</li>
+								<li>
+									<a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 3</a>
+								</li>
+								<li>
+									<a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 4</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="nav-link px-0 align-middle">
+								<i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Customers</span> </a>
+						</li>
+					</ul>
+					<hr>
+				</div>
+			</div>
 
-<footer class="text-muted py-5">
-  <div class="container">
-    <p class="float-end mb-1">
-      <a href="#">Back to top</a>
-    </p>
-    <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-    <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="/docs/5.0/getting-started/introduction/">getting started guide</a>.</p>
-  </div>
-</footer>
 
-@if (IsSectionDefined("CoursesActionsDialog"))
-{
-	@RenderSection("CoursesActionsDialog", false)
-}
+			<div class="main-container">
+			<div class="col py-3 main-container" >
+				<div class="row row-cols-3  g-4 d-flex align-items-center index_wrapper">
 
-<script src="~/js/jquery.min.js"></script>
-<script src="~/js/bootstrap.min.js"></script>
-<script src="~/js/site.js"></script>
-@* <script src="~/js/bootstrap.bundle.min.js"></script> *@
+					@RenderBody()
 
+				</div>
 
-<script>
-// BindCategoryNavItems();
-//BindСourseControlButtons();
-// BindPostNavItems();
-BindCourseControlButtons();
-</script>
+			</div>
 
+			</div>
+
+		</div>
+	</div>
+	</main>
+
+	<script src="./js/bootstrap.js" ></script>
 
 </body>
 </html>
