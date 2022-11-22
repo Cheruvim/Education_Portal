@@ -5,19 +5,6 @@
     Layout = "_Layout";
 }
 
-<section class="py-5 text-center container">
-<div class="row py-lg-5">
-  <div class="col-lg-6 col-md-8 mx-auto">
-    <h1 class="fw-light">Album example</h1>
-    <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
-    <p>
-      <a href="#" class="btn btn-primary my-2">Main call to action</a>
-      <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-    </p>
-  </div>
-</div>
-</section>
-
 <div>
     <h2>Курсы</h2>
     <button type="button" class="btn site-bg-blue" id="courseCreateButton">Создать</button>
@@ -25,9 +12,9 @@
     @foreach (var course in Model.courses)
     {
         <div courseId="@course.CourseId">
-            <a class="list-group-item list-group-item-action list-group-item-light p-3"  asp-action="Index" asp-controller="Course" asp-route-courseId="@course.CourseId">@course.Name</a>
+            <a class="list-group-item list-group-item-action list-group-item-light p-3"  asp-action="Course" asp-controller="Course" asp-route-courseId="@course.CourseId">@course.Name</a>
             <div class="btn-group">
-                <button type="button" class="courseEditButton" courseId="@course.CourseId"><span class="feather-16" data-feather="plus-circle"></span> <span class="d-none d-xl-inline">Изменить</span></button>
+                <button type="button" class="courseEditButton" courseId="@course.CourseId" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@course.Name"><span class="feather-16" data-feather="plus-circle"></span> <span class="d-none d-xl-inline">Изменить</span></button>
                 <button type="button" class="courseDeleteButton" courseId="@course.CourseId"><span class="feather-16" data-feather="plus-circle"></span> <span class="d-none d-xl-inline">Удалить</span></button>
             </div>
         </div>
@@ -71,3 +58,50 @@
         </div>
     </form>
 </div>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label">Recipient:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message-text" class="col-form-label">Message:</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Send message</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="module">
+    var exampleModal = document.getElementById('exampleModal')
+    exampleModal.addEventListener('show.bs.modal', function (event) {
+      // Button that triggered the modal
+      var button = event.relatedTarget
+      // Extract info from data-bs-* attributes
+      var recipient = button.getAttribute('data-bs-whatever')
+      // If necessary, you could initiate an AJAX request here
+      // and then do the updating in a callback.
+      //
+      // Update the modal's content.
+      var modalTitle = exampleModal.querySelector('.modal-title')
+      var modalBodyInput = exampleModal.querySelector('.modal-body input')
+
+      modalTitle.textContent = 'New message to ' + recipient
+      modalBodyInput.value = recipient
+    })
+</script>
