@@ -14,8 +14,8 @@
         <div courseId="@course.CourseId">
             <a class="list-group-item list-group-item-action list-group-item-light p-3"  asp-action="Course" asp-controller="Course" asp-route-courseId="@course.CourseId">@course.Name</a>
             <div class="btn-group">
-                <button type="button" class="courseEditButton" courseId="@course.CourseId" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@course.Name"><span class="feather-16" data-feather="plus-circle"></span> <span class="d-none d-xl-inline">Изменить</span></button>
-                <button type="button" class="courseDeleteButton" courseId="@course.CourseId"><span class="feather-16" data-feather="plus-circle"></span> <span class="d-none d-xl-inline">Удалить</span></button>
+                <button type="button" class="courseEditButton" data-bs-courseId="@course.CourseId" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-name="@course.Name" data-bs-description="@course.Description"><span class="feather-16" data-feather="plus-circle"></span> <span class="d-none d-xl-inline">Изменить</span></button>
+                <button type="button" class="courseDeleteButton" data-bs-courseId="@course.CourseId"><span class="feather-16" data-feather="plus-circle"></span> <span class="d-none d-xl-inline">Удалить</span></button>
             </div>
         </div>
     }
@@ -59,7 +59,6 @@
     </form>
 </div>
 
-
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -67,22 +66,30 @@
                 <h5 class="modal-title" id="exampleModalLabel">New message</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
-                <form>
+            <form asp-controller="Admin" asp-action="EditCourse" enctype="multipart/form-data" method="POST">
+                <div class="modal-body">
+                    <input type="hidden" class="form-control" id="courseId" name="courseId" value="1">
+
                     <div class="mb-3">
-                        <label for="recipient-name" class="col-form-label">Recipient:</label>
-                        <input type="text" class="form-control" id="recipient-name">
+                        <label for="courseTitle" class="col-form-label">Title:</label>
+                        <input type="text" class="form-control" id="courseTitle">
                     </div>
                     <div class="mb-3">
-                        <label for="message-text" class="col-form-label">Message:</label>
-                        <textarea class="form-control" id="message-text"></textarea>
+                        <label for="courseDescription" class="col-form-label">Description:</label>
+                        <textarea class="form-control" id="courseDescription"></textarea>
                     </div>
-                </form>
-            </div>
+                    <div class="mb-3">
+                        <label for="enable" class="col-form-label">Enabled:</label>
+                        <input class="form-check-input" type="checkbox" value="" id="enable">
+
+                        @* <textarea class="form-control" id="enabled"></textarea> *@
+                    </div>
+                </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Send message</button>
+                <button type="submit" class="btn btn-primary">Send message</button>
             </div>
+            </form>
         </div>
     </div>
 </div>
@@ -91,17 +98,22 @@
     var exampleModal = document.getElementById('exampleModal')
     exampleModal.addEventListener('show.bs.modal', function (event) {
       // Button that triggered the modal
-      var button = event.relatedTarget
-      // Extract info from data-bs-* attributes
-      var recipient = button.getAttribute('data-bs-whatever')
-      // If necessary, you could initiate an AJAX request here
-      // and then do the updating in a callback.
-      //
-      // Update the modal's content.
-      var modalTitle = exampleModal.querySelector('.modal-title')
-      var modalBodyInput = exampleModal.querySelector('.modal-body input')
+        var button = event.relatedTarget
 
-      modalTitle.textContent = 'New message to ' + recipient
-      modalBodyInput.value = recipient
+
+
+       var id = button.getAttribute('data-bs-course_id')
+       var modalBodyInputCourseId = exampleModal.querySelector('.modal-body #courseId')
+       modalBodyInputCourseId.value = id
+
+       var recipient = button.getAttribute('data-bs-name')
+       var modalTitle = exampleModal.querySelector('.modal-title')
+       var modalBodyInputName = exampleModal.querySelector('.modal-body #courseTitle')
+       modalTitle.textContent = "Изменения для курса " + recipient
+       modalBodyInputName.value = recipient
+
+       var description = button.getAttribute('data-bs-description')
+       var modalBodyInputDescription = exampleModal.querySelector('.modal-body #courseDescription')
+       modalBodyInputDescription.value = description
     })
 </script>
