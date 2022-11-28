@@ -14,8 +14,8 @@
         <div courseId="@course.CourseId">
             <a class="list-group-item list-group-item-action list-group-item-light p-3"  asp-action="Course" asp-controller="Course" asp-route-courseId="@course.CourseId">@course.Name</a>
             <div class="btn-group">
-                <button type="button" class="courseEditButton" data-bs-courseId="@course.CourseId" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-name="@course.Name" data-bs-description="@course.Description"><span class="feather-16" data-feather="plus-circle"></span> <span class="d-none d-xl-inline">Изменить</span></button>
-                <button type="button" class="courseDeleteButton" data-bs-courseId="@course.CourseId"><span class="feather-16" data-feather="plus-circle"></span> <span class="d-none d-xl-inline">Удалить</span></button>
+                <button type="button" class="courseEditButton" data-bs-course_id="@course.CourseId" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-name="@course.Name" data-bs-description="@course.Description"><span class="feather-16" data-feather="plus-circle"></span> <span class="d-none d-xl-inline">Изменить</span></button>
+                <button type="button" class="courseDeleteButton" data-bs-course_id="@course.CourseId"><span class="feather-16" data-feather="plus-circle"></span> <span class="d-none d-xl-inline">Удалить</span></button>
             </div>
         </div>
     }
@@ -72,17 +72,16 @@
 
                     <div class="mb-3">
                         <label for="courseTitle" class="col-form-label">Title:</label>
-                        <input type="text" class="form-control" id="courseTitle">
+                        <input type="text" class="form-control" name="courseTitle"  id="courseTitle" value>
                     </div>
                     <div class="mb-3">
                         <label for="courseDescription" class="col-form-label">Description:</label>
-                        <textarea class="form-control" id="courseDescription"></textarea>
+                        <textarea class="form-control" name="courseDescription" id="courseDescription" value></textarea>
                     </div>
                     <div class="mb-3">
                         <label for="enable" class="col-form-label">Enabled:</label>
-                        <input class="form-check-input" type="checkbox" value="" id="enable">
-
-                        @* <textarea class="form-control" id="enabled"></textarea> *@
+                        <input class="form-check-input" type="radio" name="enable" id="enable" value="true" />
+                        <input class="form-check-input" type="radio" name="enable" id="disable" value="false" />
                     </div>
                 </div>
             <div class="modal-footer">
@@ -94,26 +93,41 @@
     </div>
 </div>
 
-<script type="module">
-    var exampleModal = document.getElementById('exampleModal')
-    exampleModal.addEventListener('show.bs.modal', function (event) {
-      // Button that triggered the modal
-        var button = event.relatedTarget
+@* <script type="module"> *@
+@*     var exampleModal = document.getElementById('exampleModal') *@
+@*     exampleModal.addEventListener('show.bs.modal', function (event) { *@
+@*       // Button that triggered the modal *@
+@*         var button = event.relatedTarget *@
+@* *@
+@*        var id = button.getAttribute('data-bs-course_id') *@
+@*        var modalBodyInputCourseId = exampleModal.querySelector('.modal-body #courseId') *@
+@*        modalBodyInputCourseId.value = id *@
+@* *@
+@*        var recipient = button.getAttribute('data-bs-name') *@
+@*        var modalTitle = exampleModal.querySelector('.modal-title') *@
+@*        var modalBodyInputName = exampleModal.querySelector('.modal-body #courseTitle') *@
+@*        modalTitle.textContent = "Изменения для курса " + recipient *@
+@*        modalBodyInputName.value = recipient *@
+@* *@
+@*        var description = button.getAttribute('data-bs-description') *@
+@*        var modalBodyInputDescription = exampleModal.querySelector('.modal-body #courseDescription') *@
+@*        modalBodyInputDescription.value = description *@
+@* *@
+@* *@
+@*        // // Button that triggered the modal *@
+@*        //  var button = event.relatedTarget *@
+@*        //  // Extract info from data-bs-* attributes *@
+@*        //  var recipient = button.getAttribute('data-bs-whatever') *@
+@*        //  // If necessary, you could initiate an AJAX request here *@
+@*        //  // and then do the updating in a callback. *@
+@*        //  // *@
+@*        //  // Update the modal's content. *@
+@*        //  var modalTitle = exampleModal.querySelector('.modal-title') *@
+@*        //  var modalBodyInput = exampleModal.querySelector('.modal-body input') *@
+@*        // *@
+@*        //  modalTitle.textContent = 'New message to ' + recipient *@
+@*        //  modalBodyInput.value = recipient *@
+@*     }) *@
+@* </script> *@
 
-
-
-       var id = button.getAttribute('data-bs-course_id')
-       var modalBodyInputCourseId = exampleModal.querySelector('.modal-body #courseId')
-       modalBodyInputCourseId.value = id
-
-       var recipient = button.getAttribute('data-bs-name')
-       var modalTitle = exampleModal.querySelector('.modal-title')
-       var modalBodyInputName = exampleModal.querySelector('.modal-body #courseTitle')
-       modalTitle.textContent = "Изменения для курса " + recipient
-       modalBodyInputName.value = recipient
-
-       var description = button.getAttribute('data-bs-description')
-       var modalBodyInputDescription = exampleModal.querySelector('.modal-body #courseDescription')
-       modalBodyInputDescription.value = description
-    })
-</script>
+<script src="~/js/site.js" ></script>
