@@ -30,7 +30,7 @@ namespace Education_portal.Controllers
             return View((users, courses));
         }
 
-        private IActionResult AddCourse(string courseTitle, string courseDescription, bool enable)
+        private IActionResult AddCourse(string courseTitle, string courseDescription, bool enable = false)
         {
             var user = UserCookieUtility.GetUserInfoFromCookies(HttpContext);
             var course = new Course
