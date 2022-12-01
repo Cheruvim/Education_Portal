@@ -14,10 +14,10 @@
   <div class="container-fluid py-5">
 	<h1 class="display-5 fw-bold">@Model.Item1.Name</h1>
 	<p class="col-md-8 fs-4">@Model.Item1.Description</p>
-	<a class="btn btn-primary btn-lg" asp-controller="Course" asp-action="BoughtCourse" asp-route-courseId="@Model.Item1.CourseId">
-		Смотреть курс
-	</a>
-	<button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal" asp-controller="Course" asp-action="BoughtCourse" asp-route-courseId="@Model.Item1.CourseId">Купить курс</button>
+	  <a class="btn btn-primary btn-lg" asp-controller="Course" asp-action="BoughtCourse" asp-route-courseId="@Model.Item1.CourseId">
+		  Смотреть курс
+	  </a>
+	  <button type="button" class="btn btn-primary btn-lg" data-bs-course_id="@Model.Item1.CourseId" data-bs-toggle="modal" data-bs-target="#buyCourse" data-bs-name="@Model.Item1.Name" data-bs-description="@Model.Item1.Description">Купить курс</button>
 
   </div>
 </div>
@@ -38,18 +38,52 @@
   </div>
 </div>
 <div class="row align-items-md-stretch mb-4">
-  <div class="col-md-6">
-	<div class="h-100 p-5 text-white bg-dark rounded-3">
-	  <h2>Change the background</h2>
-	  <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
-	  <button class="btn btn-outline-light" type="button">Example button</button>
+	<div class="col-md-6">
+		<div class="h-100 p-5 text-white bg-dark rounded-3">
+			<h2>Change the background</h2>
+			<p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+			<button class="btn btn-outline-light" type="button">Example button</button>
+		</div>
 	</div>
-  </div>
-  <div class="col-md-6">
-	<div class="h-100 p-5 bg-light border rounded-3">
-	  <h2>Add borders</h2>
-	  <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
-	  <button class="btn btn-outline-secondary" type="button">Example button</button>
+	<div class="col-md-6">
+		<div class="h-100 p-5 bg-light border rounded-3">
+			<h2>Add borders</h2>
+			<p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+			<button class="btn btn-outline-secondary" type="button">Example button</button>
+		</div>
 	</div>
-  </div>
+</div>
+
+<div class="modal fade" id="buyCourse" tabindex="-1" aria-labelledby="buyCourseLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="buyCourseLabel">Buy course</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form asp-controller="Admin" asp-action="EditCourse" enctype="multipart/form-data" method="POST">
+				<div class="modal-body">
+					<input type="hidden" class="form-control" id="courseId" name="courseId" value="1">
+
+					<div class="mb-3">
+						<label for="courseTitle" class="col-form-label">Title:</label>
+						<input type="text" class="form-control" name="courseTitle"  id="courseTitle" value>
+					</div>
+					<div class="mb-3">
+						<label for="courseDescription" class="col-form-label">Description:</label>
+						<textarea class="form-control" name="courseDescription" id="courseDescription" value></textarea>
+					</div>
+					<div class="mb-3">
+						<label for="enable" class="col-form-label">Enabled:</label>
+						<input class="form-check-input" type="radio" name="enable" id="enable" value="true" />
+						<input class="form-check-input" type="radio" name="enable" id="disable" value="false" />
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					<button type="submit" class="btn btn-primary">Send message</button>
+				</div>
+			</form>
+		</div>
+	</div>
 </div>
